@@ -1,0 +1,2284 @@
+{
+ "gg": {
+  "abelenstra|adelaarshorst": {
+   "m": 102,
+   "t": "2026-10-27"
+  },
+  "abelenstra|afas": {
+   "m": 182,
+   "t": "2026-10-27"
+  },
+  "abelenstra|arena": {
+   "m": 140,
+   "t": "2026-10-27"
+  },
+  "abelenstra|bingoal": {
+   "m": 189,
+   "t": "2026-10-27"
+  },
+  "abelenstra|buko": {
+   "m": 166,
+   "t": "2026-10-27"
+  },
+  "abelenstra|euroborg": {
+   "m": 84,
+   "t": "2026-10-27"
+  },
+  "abelenstra|galgenwaard": {
+   "m": 137,
+   "t": "2026-10-27"
+  },
+  "abelenstra|goffert": {
+   "m": 155,
+   "t": "2026-10-27"
+  },
+  "abelenstra|grolsch": {
+   "m": 131,
+   "t": "2026-10-27"
+  },
+  "abelenstra|kasteel": {
+   "m": 177,
+   "t": "2026-10-27"
+  },
+  "abelenstra|kooi": {
+   "m": 56,
+   "t": "2026-10-27"
+  },
+  "abelenstra|kuip": {
+   "m": 179,
+   "t": "2026-10-27"
+  },
+  "abelenstra|mac3park": {
+   "m": 74,
+   "t": "2026-10-27"
+  },
+  "abelenstra|woudestein": {
+   "m": 179,
+   "t": "2026-10-27"
+  },
+  "adelaarshorst|afas": {
+   "m": 177,
+   "t": "2026-10-27"
+  },
+  "adelaarshorst|arena": {
+   "m": 93,
+   "t": "2026-10-27"
+  },
+  "adelaarshorst|bingoal": {
+   "m": 137,
+   "t": "2026-10-27"
+  },
+  "adelaarshorst|buko": {
+   "m": 137,
+   "t": "2026-10-27"
+  },
+  "adelaarshorst|euroborg": {
+   "m": 123,
+   "t": "2026-10-27"
+  },
+  "adelaarshorst|fortuna": {
+   "m": 186,
+   "t": "2026-10-27"
+  },
+  "adelaarshorst|galgenwaard": {
+   "m": 86,
+   "t": "2026-10-27"
+  },
+  "adelaarshorst|goffert": {
+   "m": 80,
+   "t": "2026-10-27"
+  },
+  "adelaarshorst|grolsch": {
+   "m": 73,
+   "t": "2026-10-27"
+  },
+  "adelaarshorst|kasteel": {
+   "m": 132,
+   "t": "2026-10-27"
+  },
+  "adelaarshorst|kooi": {
+   "m": 117,
+   "t": "2026-10-27"
+  },
+  "adelaarshorst|kuip": {
+   "m": 135,
+   "t": "2026-10-27"
+  },
+  "adelaarshorst|mac3park": {
+   "m": 60,
+   "t": "2026-10-27"
+  },
+  "adelaarshorst|philips": {
+   "m": 128,
+   "t": "2026-10-27"
+  },
+  "adelaarshorst|willem2": {
+   "m": 136,
+   "t": "2026-10-27"
+  },
+  "adelaarshorst|woudestein": {
+   "m": 132,
+   "t": "2026-10-27"
+  },
+  "afas|arena": {
+   "m": 101,
+   "t": "2026-10-27"
+  },
+  "afas|bingoal": {
+   "m": 155,
+   "t": "2026-10-27"
+  },
+  "afas|buko": {
+   "m": 96,
+   "t": "2026-10-27"
+  },
+  "afas|euroborg": {
+   "m": 215,
+   "t": "2026-10-27"
+  },
+  "afas|galgenwaard": {
+   "m": 115,
+   "t": "2026-10-27"
+  },
+  "afas|goffert": {
+   "m": 179,
+   "t": "2026-10-27"
+  },
+  "afas|grolsch": {
+   "m": 229,
+   "t": "2026-10-27"
+  },
+  "afas|kasteel": {
+   "m": 138,
+   "t": "2026-10-27"
+  },
+  "afas|kooi": {
+   "m": 158,
+   "t": "2026-10-27"
+  },
+  "afas|kuip": {
+   "m": 145,
+   "t": "2026-10-27"
+  },
+  "afas|mac3park": {
+   "m": 172,
+   "t": "2026-10-27"
+  },
+  "afas|philips": {
+   "m": 165,
+   "t": "2026-10-27"
+  },
+  "afas|willem2": {
+   "m": 176,
+   "t": "2026-10-27"
+  },
+  "afas|woudestein": {
+   "m": 142,
+   "t": "2026-10-27"
+  },
+  "allianz|como": {
+   "m": 152,
+   "t": "2026-10-27"
+  },
+  "allianz|ferraris": {
+   "m": 157,
+   "t": "2026-10-27"
+  },
+  "allianz|grandetorino": {
+   "m": 53,
+   "t": "2026-10-27"
+  },
+  "allianz|monza": {
+   "m": 139,
+   "t": "2026-10-27"
+  },
+  "allianz|sansiro": {
+   "m": 99,
+   "t": "2026-10-27"
+  },
+  "anfield|bet365": {
+   "m": 132,
+   "t": "2026-10-27"
+  },
+  "anfield|bolton": {
+   "m": 106,
+   "t": "2026-10-27"
+  },
+  "anfield|bramall": {
+   "m": 157,
+   "t": "2026-10-27"
+  },
+  "anfield|caeras": {
+   "m": 101,
+   "t": "2026-10-27"
+  },
+  "anfield|cbsarena": {
+   "m": 190,
+   "t": "2026-10-27"
+  },
+  "anfield|cityground": {
+   "m": 186,
+   "t": "2026-10-27"
+  },
+  "anfield|deepdale": {
+   "m": 109,
+   "t": "2026-10-27"
+  },
+  "anfield|ellandroad": {
+   "m": 148,
+   "t": "2026-10-27"
+  },
+  "anfield|etihad": {
+   "m": 89,
+   "t": "2026-10-27"
+  },
+  "anfield|ewood": {
+   "m": 135,
+   "t": "2026-10-27"
+  },
+  "anfield|hawthorns": {
+   "m": 145,
+   "t": "2026-10-27"
+  },
+  "anfield|hilldickinson": {
+   "m": 35,
+   "t": "2026-10-27"
+  },
+  "anfield|molineux": {
+   "m": 120,
+   "t": "2026-10-27"
+  },
+  "anfield|oldtrafford": {
+   "m": 99,
+   "t": "2026-10-27"
+  },
+  "anfield|pridepark": {
+   "m": 162,
+   "t": "2026-10-27"
+  },
+  "anfield|standrews": {
+   "m": 149,
+   "t": "2026-10-27"
+  },
+  "anfield|turfmoor": {
+   "m": 156,
+   "t": "2026-10-27"
+  },
+  "anfield|villapark": {
+   "m": 154,
+   "t": "2026-10-27"
+  },
+  "arena|bingoal": {
+   "m": 87,
+   "t": "2026-10-27"
+  },
+  "arena|buko": {
+   "m": 59,
+   "t": "2026-10-27"
+  },
+  "arena|euroborg": {
+   "m": 164,
+   "t": "2026-10-27"
+  },
+  "arena|galgenwaard": {
+   "m": 44,
+   "t": "2026-10-27"
+  },
+  "arena|goffert": {
+   "m": 107,
+   "t": "2026-10-27"
+  },
+  "arena|grolsch": {
+   "m": 143,
+   "t": "2026-10-27"
+  },
+  "arena|kasteel": {
+   "m": 74,
+   "t": "2026-10-27"
+  },
+  "arena|kooi": {
+   "m": 158,
+   "t": "2026-10-27"
+  },
+  "arena|kuip": {
+   "m": 78,
+   "t": "2026-10-27"
+  },
+  "arena|mac3park": {
+   "m": 101,
+   "t": "2026-10-27"
+  },
+  "arena|philips": {
+   "m": 94,
+   "t": "2026-10-27"
+  },
+  "arena|willem2": {
+   "m": 101,
+   "t": "2026-10-27"
+  },
+  "arena|woudestein": {
+   "m": 82,
+   "t": "2026-10-27"
+  },
+  "bergamo|como": {
+   "t": "2026-10-27"
+  },
+  "bergamo|ferraris": {
+   "t": "2026-10-27"
+  },
+  "bergamo|mapei": {
+   "t": "2026-10-27"
+  },
+  "bergamo|monza": {
+   "t": "2026-10-27"
+  },
+  "bergamo|sansiro": {
+   "t": "2026-10-27"
+  },
+  "bergamo|tardini": {
+   "t": "2026-10-27"
+  },
+  "bet365|bolton": {
+   "m": 125,
+   "t": "2026-10-27"
+  },
+  "bet365|bramall": {
+   "m": 141,
+   "t": "2026-10-27"
+  },
+  "bet365|caeras": {
+   "m": 145,
+   "t": "2026-10-27"
+  },
+  "bet365|cbsarena": {
+   "m": 112,
+   "t": "2026-10-27"
+  },
+  "bet365|cityground": {
+   "m": 141,
+   "t": "2026-10-27"
+  },
+  "bet365|deepdale": {
+   "m": 145,
+   "t": "2026-10-27"
+  },
+  "bet365|ellandroad": {
+   "m": 162,
+   "t": "2026-10-27"
+  },
+  "bet365|etihad": {
+   "m": 79,
+   "t": "2026-10-27"
+  },
+  "bet365|ewood": {
+   "m": 169,
+   "t": "2026-10-27"
+  },
+  "bet365|hawthorns": {
+   "m": 109,
+   "t": "2026-10-27"
+  },
+  "bet365|hilldickinson": {
+   "m": 141,
+   "t": "2026-10-27"
+  },
+  "bet365|lner": {
+   "m": 219,
+   "t": "2026-10-27"
+  },
+  "bet365|mkm": {
+   "m": 219,
+   "t": "2026-10-27"
+  },
+  "bet365|molineux": {
+   "m": 85,
+   "t": "2026-10-27"
+  },
+  "bet365|oldtrafford": {
+   "m": 91,
+   "t": "2026-10-27"
+  },
+  "bet365|pridepark": {
+   "m": 109,
+   "t": "2026-10-27"
+  },
+  "bet365|standrews": {
+   "m": 116,
+   "t": "2026-10-27"
+  },
+  "bet365|turfmoor": {
+   "m": 167,
+   "t": "2026-10-27"
+  },
+  "bet365|villapark": {
+   "m": 117,
+   "t": "2026-10-27"
+  },
+  "bingoal|buko": {
+   "m": 96,
+   "t": "2026-10-27"
+  },
+  "bingoal|fortuna": {
+   "m": 192,
+   "t": "2026-10-27"
+  },
+  "bingoal|galgenwaard": {
+   "m": 84,
+   "t": "2026-10-27"
+  },
+  "bingoal|goffert": {
+   "m": 157,
+   "t": "2026-10-27"
+  },
+  "bingoal|kasteel": {
+   "m": 65,
+   "t": "2026-10-27"
+  },
+  "bingoal|kooi": {
+   "m": 208,
+   "t": "2026-10-27"
+  },
+  "bingoal|kuip": {
+   "m": 69,
+   "t": "2026-10-27"
+  },
+  "bingoal|mac3park": {
+   "m": 151,
+   "t": "2026-10-27"
+  },
+  "bingoal|philips": {
+   "m": 134,
+   "t": "2026-10-27"
+  },
+  "bingoal|willem2": {
+   "m": 116,
+   "t": "2026-10-27"
+  },
+  "bingoal|woudestein": {
+   "m": 68,
+   "t": "2026-10-27"
+  },
+  "bolton|bramall": {
+   "m": 136,
+   "t": "2026-10-27"
+  },
+  "bolton|caeras": {
+   "m": 136,
+   "t": "2026-10-27"
+  },
+  "bolton|cbsarena": {
+   "m": 170,
+   "t": "2026-10-27"
+  },
+  "bolton|cityground": {
+   "m": 189,
+   "t": "2026-10-27"
+  },
+  "bolton|deepdale": {
+   "m": 64,
+   "t": "2026-10-27"
+  },
+  "bolton|ellandroad": {
+   "m": 129,
+   "t": "2026-10-27"
+  },
+  "bolton|etihad": {
+   "m": 61,
+   "t": "2026-10-27"
+  },
+  "bolton|ewood": {
+   "m": 71,
+   "t": "2026-10-27"
+  },
+  "bolton|hawthorns": {
+   "m": 150,
+   "t": "2026-10-27"
+  },
+  "bolton|hilldickinson": {
+   "m": 121,
+   "t": "2026-10-27"
+  },
+  "bolton|lner": {
+   "m": 214,
+   "t": "2026-10-27"
+  },
+  "bolton|mkm": {
+   "m": 186,
+   "t": "2026-10-27"
+  },
+  "bolton|molineux": {
+   "m": 127,
+   "t": "2026-10-27"
+  },
+  "bolton|oldtrafford": {
+   "m": 56,
+   "t": "2026-10-27"
+  },
+  "bolton|pridepark": {
+   "m": 174,
+   "t": "2026-10-27"
+  },
+  "bolton|riverside": {
+   "m": 246,
+   "t": "2026-10-27"
+  },
+  "bolton|standrews": {
+   "m": 160,
+   "t": "2026-10-27"
+  },
+  "bolton|turfmoor": {
+   "m": 114,
+   "t": "2026-10-27"
+  },
+  "bolton|villapark": {
+   "m": 161,
+   "t": "2026-10-27"
+  },
+  "bramall|caeras": {
+   "m": 161,
+   "t": "2026-10-27"
+  },
+  "bramall|cbsarena": {
+   "m": 137,
+   "t": "2026-10-27"
+  },
+  "bramall|cityground": {
+   "m": 83,
+   "t": "2026-10-27"
+  },
+  "bramall|deepdale": {
+   "m": 154,
+   "t": "2026-10-27"
+  },
+  "bramall|ellandroad": {
+   "m": 81,
+   "t": "2026-10-27"
+  },
+  "bramall|etihad": {
+   "m": 88,
+   "t": "2026-10-27"
+  },
+  "bramall|ewood": {
+   "m": 166,
+   "t": "2026-10-27"
+  },
+  "bramall|hawthorns": {
+   "m": 110,
+   "t": "2026-10-27"
+  },
+  "bramall|hilldickinson": {
+   "m": 159,
+   "t": "2026-10-27"
+  },
+  "bramall|lner": {
+   "m": 109,
+   "t": "2026-10-27"
+  },
+  "bramall|mkm": {
+   "m": 113,
+   "t": "2026-10-27"
+  },
+  "bramall|molineux": {
+   "m": 126,
+   "t": "2026-10-27"
+  },
+  "bramall|oldtrafford": {
+   "m": 100,
+   "t": "2026-10-27"
+  },
+  "bramall|pridepark": {
+   "m": 71,
+   "t": "2026-10-27"
+  },
+  "bramall|riverside": {
+   "m": 158,
+   "t": "2026-10-27"
+  },
+  "bramall|standrews": {
+   "m": 109,
+   "t": "2026-10-27"
+  },
+  "bramall|turfmoor": {
+   "m": 163,
+   "t": "2026-10-27"
+  },
+  "bramall|villapark": {
+   "m": 112,
+   "t": "2026-10-27"
+  },
+  "buko|euroborg": {
+   "m": 201,
+   "t": "2026-10-27"
+  },
+  "buko|galgenwaard": {
+   "m": 94,
+   "t": "2026-10-27"
+  },
+  "buko|goffert": {
+   "m": 159,
+   "t": "2026-10-27"
+  },
+  "buko|grolsch": {
+   "m": 195,
+   "t": "2026-10-27"
+  },
+  "buko|kasteel": {
+   "m": 103,
+   "t": "2026-10-27"
+  },
+  "buko|kooi": {
+   "m": 196,
+   "t": "2026-10-27"
+  },
+  "buko|kuip": {
+   "m": 109,
+   "t": "2026-10-27"
+  },
+  "buko|mac3park": {
+   "m": 138,
+   "t": "2026-10-27"
+  },
+  "buko|philips": {
+   "m": 144,
+   "t": "2026-10-27"
+  },
+  "buko|willem2": {
+   "m": 150,
+   "t": "2026-10-27"
+  },
+  "buko|woudestein": {
+   "m": 109,
+   "t": "2026-10-27"
+  },
+  "caeras|cbsarena": {
+   "m": 178,
+   "t": "2026-10-27"
+  },
+  "caeras|cityground": {
+   "m": 179,
+   "t": "2026-10-27"
+  },
+  "caeras|deepdale": {
+   "m": 129,
+   "t": "2026-10-27"
+  },
+  "caeras|ellandroad": {
+   "m": 170,
+   "t": "2026-10-27"
+  },
+  "caeras|etihad": {
+   "m": 109,
+   "t": "2026-10-27"
+  },
+  "caeras|ewood": {
+   "m": 147,
+   "t": "2026-10-27"
+  },
+  "caeras|hawthorns": {
+   "m": 132,
+   "t": "2026-10-27"
+  },
+  "caeras|hilldickinson": {
+   "m": 102,
+   "t": "2026-10-27"
+  },
+  "caeras|molineux": {
+   "m": 112,
+   "t": "2026-10-27"
+  },
+  "caeras|oldtrafford": {
+   "m": 123,
+   "t": "2026-10-27"
+  },
+  "caeras|pridepark": {
+   "m": 151,
+   "t": "2026-10-27"
+  },
+  "caeras|standrews": {
+   "m": 143,
+   "t": "2026-10-27"
+  },
+  "caeras|turfmoor": {
+   "m": 170,
+   "t": "2026-10-27"
+  },
+  "caeras|villapark": {
+   "m": 142,
+   "t": "2026-10-27"
+  },
+  "cbsarena|cityground": {
+   "m": 126,
+   "t": "2026-10-27"
+  },
+  "cbsarena|craven": {
+   "m": 129,
+   "t": "2026-10-27"
+  },
+  "cbsarena|den": {
+   "m": 117,
+   "t": "2026-10-27"
+  },
+  "cbsarena|ellandroad": {
+   "m": 208,
+   "t": "2026-10-27"
+  },
+  "cbsarena|emirates": {
+   "m": 102,
+   "t": "2026-10-27"
+  },
+  "cbsarena|etihad": {
+   "m": 146,
+   "t": "2026-10-27"
+  },
+  "cbsarena|ewood": {
+   "m": 191,
+   "t": "2026-10-27"
+  },
+  "cbsarena|gtech": {
+   "m": 132,
+   "t": "2026-10-27"
+  },
+  "cbsarena|hawthorns": {
+   "m": 73,
+   "t": "2026-10-27"
+  },
+  "cbsarena|hilldickinson": {
+   "m": 158,
+   "t": "2026-10-27"
+  },
+  "cbsarena|lner": {
+   "m": 228,
+   "t": "2026-10-27"
+  },
+  "cbsarena|loftus": {
+   "m": 116,
+   "t": "2026-10-27"
+  },
+  "cbsarena|londonstadium": {
+   "m": 116,
+   "t": "2026-10-27"
+  },
+  "cbsarena|molineux": {
+   "m": 77,
+   "t": "2026-10-27"
+  },
+  "cbsarena|oldtrafford": {
+   "m": 163,
+   "t": "2026-10-27"
+  },
+  "cbsarena|pridepark": {
+   "m": 110,
+   "t": "2026-10-27"
+  },
+  "cbsarena|selhurst": {
+   "m": 140,
+   "t": "2026-10-27"
+  },
+  "cbsarena|spurs": {
+   "m": 110,
+   "t": "2026-10-27"
+  },
+  "cbsarena|stamford": {
+   "m": 116,
+   "t": "2026-10-27"
+  },
+  "cbsarena|standrews": {
+   "m": 67,
+   "t": "2026-10-27"
+  },
+  "cbsarena|turfmoor": {
+   "m": 222,
+   "t": "2026-10-27"
+  },
+  "cbsarena|valley": {
+   "m": 129,
+   "t": "2026-10-27"
+  },
+  "cbsarena|vicarage": {
+   "m": 119,
+   "t": "2026-10-27"
+  },
+  "cbsarena|villapark": {
+   "m": 63,
+   "t": "2026-10-27"
+  },
+  "cityground|deepdale": {
+   "m": 208,
+   "t": "2026-10-27"
+  },
+  "cityground|ellandroad": {
+   "m": 149,
+   "t": "2026-10-27"
+  },
+  "cityground|etihad": {
+   "m": 144,
+   "t": "2026-10-27"
+  },
+  "cityground|ewood": {
+   "m": 222,
+   "t": "2026-10-27"
+  },
+  "cityground|hawthorns": {
+   "m": 113,
+   "t": "2026-10-27"
+  },
+  "cityground|hilldickinson": {
+   "m": 189,
+   "t": "2026-10-27"
+  },
+  "cityground|lner": {
+   "m": 86,
+   "t": "2026-10-27"
+  },
+  "cityground|mkm": {
+   "m": 164,
+   "t": "2026-10-27"
+  },
+  "cityground|molineux": {
+   "m": 127,
+   "t": "2026-10-27"
+  },
+  "cityground|oldtrafford": {
+   "m": 159,
+   "t": "2026-10-27"
+  },
+  "cityground|pridepark": {
+   "m": 67,
+   "t": "2026-10-27"
+  },
+  "cityground|standrews": {
+   "m": 112,
+   "t": "2026-10-27"
+  },
+  "cityground|turfmoor": {
+   "m": 224,
+   "t": "2026-10-27"
+  },
+  "cityground|vicarage": {
+   "m": 163,
+   "t": "2026-10-27"
+  },
+  "cityground|villapark": {
+   "m": 116,
+   "t": "2026-10-27"
+  },
+  "como|ferraris": {
+   "m": 179,
+   "t": "2026-10-27"
+  },
+  "como|grandetorino": {
+   "m": 138,
+   "t": "2026-10-27"
+  },
+  "como|monza": {
+   "m": 90,
+   "t": "2026-10-27"
+  },
+  "como|sansiro": {
+   "m": 86,
+   "t": "2026-10-27"
+  },
+  "como|tardini": {
+   "m": 155,
+   "t": "2026-10-27"
+  },
+  "craven|den": {
+   "m": 62,
+   "t": "2026-10-27"
+  },
+  "craven|emirates": {
+   "m": 61,
+   "t": "2026-10-27"
+  },
+  "craven|gtech": {
+   "m": 46,
+   "t": "2026-10-27"
+  },
+  "craven|loftus": {
+   "m": 37,
+   "t": "2026-10-27"
+  },
+  "craven|londonstadium": {
+   "m": 74,
+   "t": "2026-10-27"
+  },
+  "craven|selhurst": {
+   "m": 65,
+   "t": "2026-10-27"
+  },
+  "craven|spurs": {
+   "m": 70,
+   "t": "2026-10-27"
+  },
+  "craven|stamford": {
+   "m": 30,
+   "t": "2026-10-27"
+  },
+  "craven|standrews": {
+   "m": 148,
+   "t": "2026-10-27"
+  },
+  "craven|valley": {
+   "m": 74,
+   "t": "2026-10-27"
+  },
+  "craven|vicarage": {
+   "m": 81,
+   "t": "2026-10-27"
+  },
+  "dallara|franchi": {
+   "m": 87,
+   "t": "2026-10-27"
+  },
+  "dallara|mapei": {
+   "m": 76,
+   "t": "2026-10-27"
+  },
+  "dallara|penzo": {
+   "m": 157,
+   "t": "2026-10-27"
+  },
+  "dallara|tardini": {
+   "m": 99,
+   "t": "2026-10-27"
+  },
+  "deepdale|ellandroad": {
+   "m": 157,
+   "t": "2026-10-27"
+  },
+  "deepdale|etihad": {
+   "m": 90,
+   "t": "2026-10-27"
+  },
+  "deepdale|ewood": {
+   "m": 63,
+   "t": "2026-10-27"
+  },
+  "deepdale|hawthorns": {
+   "m": 149,
+   "t": "2026-10-27"
+  },
+  "deepdale|hilldickinson": {
+   "m": 115,
+   "t": "2026-10-27"
+  },
+  "deepdale|lner": {
+   "m": 236,
+   "t": "2026-10-27"
+  },
+  "deepdale|mkm": {
+   "m": 231,
+   "t": "2026-10-27"
+  },
+  "deepdale|molineux": {
+   "m": 126,
+   "t": "2026-10-27"
+  },
+  "deepdale|oldtrafford": {
+   "m": 99,
+   "t": "2026-10-27"
+  },
+  "deepdale|pridepark": {
+   "m": 182,
+   "t": "2026-10-27"
+  },
+  "deepdale|riverside": {
+   "m": 241,
+   "t": "2026-10-27"
+  },
+  "deepdale|stadiumoflight": {
+   "m": 237,
+   "t": "2026-10-27"
+  },
+  "deepdale|standrews": {
+   "m": 159,
+   "t": "2026-10-27"
+  },
+  "deepdale|stjames": {
+   "m": 203,
+   "t": "2026-10-27"
+  },
+  "deepdale|turfmoor": {
+   "m": 91,
+   "t": "2026-10-27"
+  },
+  "deepdale|villapark": {
+   "m": 161,
+   "t": "2026-10-27"
+  },
+  "den|emirates": {
+   "m": 47,
+   "t": "2026-10-27"
+  },
+  "den|gtech": {
+   "m": 65,
+   "t": "2026-10-27"
+  },
+  "den|loftus": {
+   "m": 55,
+   "t": "2026-10-27"
+  },
+  "den|londonstadium": {
+   "m": 49,
+   "t": "2026-10-27"
+  },
+  "den|selhurst": {
+   "m": 52,
+   "t": "2026-10-27"
+  },
+  "den|spurs": {
+   "m": 58,
+   "t": "2026-10-27"
+  },
+  "den|stamford": {
+   "m": 49,
+   "t": "2026-10-27"
+  },
+  "den|valley": {
+   "m": 47,
+   "t": "2026-10-27"
+  },
+  "den|vicarage": {
+   "m": 81,
+   "t": "2026-10-27"
+  },
+  "ellandroad|etihad": {
+   "m": 104,
+   "t": "2026-10-27"
+  },
+  "ellandroad|ewood": {
+   "m": 129,
+   "t": "2026-10-27"
+  },
+  "ellandroad|hawthorns": {
+   "m": 166,
+   "t": "2026-10-27"
+  },
+  "ellandroad|hilldickinson": {
+   "m": 149,
+   "t": "2026-10-27"
+  },
+  "ellandroad|lner": {
+   "m": 141,
+   "t": "2026-10-27"
+  },
+  "ellandroad|mkm": {
+   "m": 104,
+   "t": "2026-10-27"
+  },
+  "ellandroad|molineux": {
+   "m": 180,
+   "t": "2026-10-27"
+  },
+  "ellandroad|oldtrafford": {
+   "m": 113,
+   "t": "2026-10-27"
+  },
+  "ellandroad|pridepark": {
+   "m": 125,
+   "t": "2026-10-27"
+  },
+  "ellandroad|riverside": {
+   "m": 125,
+   "t": "2026-10-27"
+  },
+  "ellandroad|stadiumoflight": {
+   "m": 162,
+   "t": "2026-10-27"
+  },
+  "ellandroad|standrews": {
+   "m": 166,
+   "t": "2026-10-27"
+  },
+  "ellandroad|stjames": {
+   "m": 154,
+   "t": "2026-10-27"
+  },
+  "ellandroad|turfmoor": {
+   "m": 112,
+   "t": "2026-10-27"
+  },
+  "ellandroad|villapark": {
+   "m": 175,
+   "t": "2026-10-27"
+  },
+  "emirates|gtech": {
+   "m": 63,
+   "t": "2026-10-27"
+  },
+  "emirates|loftus": {
+   "m": 49,
+   "t": "2026-10-27"
+  },
+  "emirates|londonstadium": {
+   "m": 35,
+   "t": "2026-10-27"
+  },
+  "emirates|selhurst": {
+   "m": 66,
+   "t": "2026-10-27"
+  },
+  "emirates|spurs": {
+   "m": 31,
+   "t": "2026-10-27"
+  },
+  "emirates|stamford": {
+   "m": 47,
+   "t": "2026-10-27"
+  },
+  "emirates|standrews": {
+   "m": 123,
+   "t": "2026-10-27"
+  },
+  "emirates|valley": {
+   "m": 50,
+   "t": "2026-10-27"
+  },
+  "emirates|vicarage": {
+   "m": 57,
+   "t": "2026-10-27"
+  },
+  "etihad|ewood": {
+   "m": 90,
+   "t": "2026-10-27"
+  },
+  "etihad|hawthorns": {
+   "m": 132,
+   "t": "2026-10-27"
+  },
+  "etihad|hilldickinson": {
+   "m": 103,
+   "t": "2026-10-27"
+  },
+  "etihad|lner": {
+   "m": 166,
+   "t": "2026-10-27"
+  },
+  "etihad|mkm": {
+   "m": 160,
+   "t": "2026-10-27"
+  },
+  "etihad|molineux": {
+   "m": 107,
+   "t": "2026-10-27"
+  },
+  "etihad|oldtrafford": {
+   "m": 47,
+   "t": "2026-10-27"
+  },
+  "etihad|pridepark": {
+   "m": 128,
+   "t": "2026-10-27"
+  },
+  "etihad|riverside": {
+   "m": 192,
+   "t": "2026-10-27"
+  },
+  "etihad|standrews": {
+   "m": 136,
+   "t": "2026-10-27"
+  },
+  "etihad|turfmoor": {
+   "m": 95,
+   "t": "2026-10-27"
+  },
+  "etihad|villapark": {
+   "m": 135,
+   "t": "2026-10-27"
+  },
+  "euroborg|galgenwaard": {
+   "m": 157,
+   "t": "2026-10-27"
+  },
+  "euroborg|grolsch": {
+   "m": 151,
+   "t": "2026-10-27"
+  },
+  "euroborg|kooi": {
+   "m": 67,
+   "t": "2026-10-27"
+  },
+  "euroborg|mac3park": {
+   "m": 94,
+   "t": "2026-10-27"
+  },
+  "ewood|hawthorns": {
+   "m": 181,
+   "t": "2026-10-27"
+  },
+  "ewood|hilldickinson": {
+   "m": 136,
+   "t": "2026-10-27"
+  },
+  "ewood|lner": {
+   "m": 225,
+   "t": "2026-10-27"
+  },
+  "ewood|mkm": {
+   "m": 216,
+   "t": "2026-10-27"
+  },
+  "ewood|molineux": {
+   "m": 158,
+   "t": "2026-10-27"
+  },
+  "ewood|oldtrafford": {
+   "m": 94,
+   "t": "2026-10-27"
+  },
+  "ewood|pridepark": {
+   "m": 212,
+   "t": "2026-10-27"
+  },
+  "ewood|riverside": {
+   "m": 211,
+   "t": "2026-10-27"
+  },
+  "ewood|stadiumoflight": {
+   "m": 253,
+   "t": "2026-10-27"
+  },
+  "ewood|standrews": {
+   "m": 194,
+   "t": "2026-10-27"
+  },
+  "ewood|stjames": {
+   "m": 219,
+   "t": "2026-10-27"
+  },
+  "ewood|turfmoor": {
+   "m": 61,
+   "t": "2026-10-27"
+  },
+  "ewood|villapark": {
+   "m": 193,
+   "t": "2026-10-27"
+  },
+  "ferraris|grandetorino": {
+   "m": 166,
+   "t": "2026-10-27"
+  },
+  "ferraris|mapei": {
+   "m": 193,
+   "t": "2026-10-27"
+  },
+  "ferraris|monza": {
+   "m": 189,
+   "t": "2026-10-27"
+  },
+  "ferraris|sansiro": {
+   "m": 157,
+   "t": "2026-10-27"
+  },
+  "ferraris|tardini": {
+   "m": 211,
+   "t": "2026-10-27"
+  },
+  "fortuna|galgenwaard": {
+   "m": 131,
+   "t": "2026-10-27"
+  },
+  "fortuna|goffert": {
+   "m": 134,
+   "t": "2026-10-27"
+  },
+  "fortuna|grolsch": {
+   "m": 215,
+   "t": "2026-10-27"
+  },
+  "fortuna|kasteel": {
+   "m": 179,
+   "t": "2026-10-27"
+  },
+  "fortuna|kuip": {
+   "m": 193,
+   "t": "2026-10-27"
+  },
+  "fortuna|philips": {
+   "m": 78,
+   "t": "2026-10-27"
+  },
+  "fortuna|willem2": {
+   "m": 132,
+   "t": "2026-10-27"
+  },
+  "fortuna|woudestein": {
+   "m": 184,
+   "t": "2026-10-27"
+  },
+  "franchi|mapei": {
+   "m": 118,
+   "t": "2026-10-27"
+  },
+  "franchi|tardini": {
+   "m": 158,
+   "t": "2026-10-27"
+  },
+  "galgenwaard|goffert": {
+   "m": 95,
+   "t": "2026-10-27"
+  },
+  "galgenwaard|grolsch": {
+   "m": 126,
+   "t": "2026-10-27"
+  },
+  "galgenwaard|kasteel": {
+   "m": 72,
+   "t": "2026-10-27"
+  },
+  "galgenwaard|kooi": {
+   "m": 147,
+   "t": "2026-10-27"
+  },
+  "galgenwaard|kuip": {
+   "m": 76,
+   "t": "2026-10-27"
+  },
+  "galgenwaard|mac3park": {
+   "m": 90,
+   "t": "2026-10-27"
+  },
+  "galgenwaard|philips": {
+   "m": 77,
+   "t": "2026-10-27"
+  },
+  "galgenwaard|willem2": {
+   "m": 89,
+   "t": "2026-10-27"
+  },
+  "galgenwaard|woudestein": {
+   "m": 69,
+   "t": "2026-10-27"
+  },
+  "goffert|grolsch": {
+   "m": 115,
+   "t": "2026-10-27"
+  },
+  "goffert|kasteel": {
+   "m": 126,
+   "t": "2026-10-27"
+  },
+  "goffert|kooi": {
+   "m": 175,
+   "t": "2026-10-27"
+  },
+  "goffert|kuip": {
+   "m": 140,
+   "t": "2026-10-27"
+  },
+  "goffert|mac3park": {
+   "m": 118,
+   "t": "2026-10-27"
+  },
+  "goffert|philips": {
+   "m": 79,
+   "t": "2026-10-27"
+  },
+  "goffert|willem2": {
+   "m": 86,
+   "t": "2026-10-27"
+  },
+  "goffert|woudestein": {
+   "m": 135,
+   "t": "2026-10-27"
+  },
+  "grandetorino|monza": {
+   "m": 144,
+   "t": "2026-10-27"
+  },
+  "grandetorino|sansiro": {
+   "m": 102,
+   "t": "2026-10-27"
+  },
+  "grolsch|kooi": {
+   "m": 148,
+   "t": "2026-10-27"
+  },
+  "grolsch|mac3park": {
+   "m": 91,
+   "t": "2026-10-27"
+  },
+  "grolsch|philips": {
+   "m": 159,
+   "t": "2026-10-27"
+  },
+  "grolsch|willem2": {
+   "m": 166,
+   "t": "2026-10-27"
+  },
+  "gtech|loftus": {
+   "m": 40,
+   "t": "2026-10-27"
+  },
+  "gtech|londonstadium": {
+   "m": 75,
+   "t": "2026-10-27"
+  },
+  "gtech|selhurst": {
+   "m": 63,
+   "t": "2026-10-27"
+  },
+  "gtech|spurs": {
+   "m": 68,
+   "t": "2026-10-27"
+  },
+  "gtech|stamford": {
+   "m": 43,
+   "t": "2026-10-27"
+  },
+  "gtech|standrews": {
+   "m": 149,
+   "t": "2026-10-27"
+  },
+  "gtech|valley": {
+   "m": 73,
+   "t": "2026-10-27"
+  },
+  "gtech|vicarage": {
+   "m": 79,
+   "t": "2026-10-27"
+  },
+  "gtech|villapark": {
+   "m": 148,
+   "t": "2026-10-27"
+  },
+  "hawthorns|hilldickinson": {
+   "m": 154,
+   "t": "2026-10-27"
+  },
+  "hawthorns|lner": {
+   "m": 187,
+   "t": "2026-10-27"
+  },
+  "hawthorns|molineux": {
+   "m": 41,
+   "t": "2026-10-27"
+  },
+  "hawthorns|oldtrafford": {
+   "m": 142,
+   "t": "2026-10-27"
+  },
+  "hawthorns|pridepark": {
+   "m": 81,
+   "t": "2026-10-27"
+  },
+  "hawthorns|standrews": {
+   "m": 40,
+   "t": "2026-10-27"
+  },
+  "hawthorns|turfmoor": {
+   "m": 198,
+   "t": "2026-10-27"
+  },
+  "hawthorns|vicarage": {
+   "m": 131,
+   "t": "2026-10-27"
+  },
+  "hawthorns|villapark": {
+   "m": 33,
+   "t": "2026-10-27"
+  },
+  "hilldickinson|molineux": {
+   "m": 128,
+   "t": "2026-10-27"
+  },
+  "hilldickinson|oldtrafford": {
+   "m": 104,
+   "t": "2026-10-27"
+  },
+  "hilldickinson|pridepark": {
+   "m": 159,
+   "t": "2026-10-27"
+  },
+  "hilldickinson|standrews": {
+   "m": 157,
+   "t": "2026-10-27"
+  },
+  "hilldickinson|turfmoor": {
+   "m": 157,
+   "t": "2026-10-27"
+  },
+  "hilldickinson|villapark": {
+   "m": 162,
+   "t": "2026-10-27"
+  },
+  "kasteel|kuip": {
+   "m": 36,
+   "t": "2026-10-27"
+  },
+  "kasteel|mac3park": {
+   "m": 144,
+   "t": "2026-10-27"
+  },
+  "kasteel|philips": {
+   "m": 107,
+   "t": "2026-10-27"
+  },
+  "kasteel|willem2": {
+   "m": 81,
+   "t": "2026-10-27"
+  },
+  "kasteel|woudestein": {
+   "m": 32,
+   "t": "2026-10-27"
+  },
+  "kooi|mac3park": {
+   "m": 87,
+   "t": "2026-10-27"
+  },
+  "kuip|mac3park": {
+   "m": 143,
+   "t": "2026-10-27"
+  },
+  "kuip|philips": {
+   "m": 122,
+   "t": "2026-10-27"
+  },
+  "kuip|willem2": {
+   "m": 89,
+   "t": "2026-10-27"
+  },
+  "kuip|woudestein": {
+   "m": 32,
+   "t": "2026-10-27"
+  },
+  "lner|mkm": {
+   "m": 157,
+   "t": "2026-10-27"
+  },
+  "lner|molineux": {
+   "m": 191,
+   "t": "2026-10-27"
+  },
+  "lner|oldtrafford": {
+   "m": 198,
+   "t": "2026-10-27"
+  },
+  "lner|pridepark": {
+   "m": 127,
+   "t": "2026-10-27"
+  },
+  "lner|riverside": {
+   "m": 277,
+   "t": "2026-10-27"
+  },
+  "lner|standrews": {
+   "m": 177,
+   "t": "2026-10-27"
+  },
+  "lner|turfmoor": {
+   "m": 202,
+   "t": "2026-10-27"
+  },
+  "lner|villapark": {
+   "m": 177,
+   "t": "2026-10-27"
+  },
+  "loftus|londonstadium": {
+   "m": 58,
+   "t": "2026-10-27"
+  },
+  "loftus|selhurst": {
+   "m": 64,
+   "t": "2026-10-27"
+  },
+  "loftus|spurs": {
+   "m": 57,
+   "t": "2026-10-27"
+  },
+  "loftus|stamford": {
+   "m": 32,
+   "t": "2026-10-27"
+  },
+  "loftus|standrews": {
+   "m": 135,
+   "t": "2026-10-27"
+  },
+  "loftus|valley": {
+   "m": 62,
+   "t": "2026-10-27"
+  },
+  "loftus|vicarage": {
+   "m": 71,
+   "t": "2026-10-27"
+  },
+  "loftus|villapark": {
+   "m": 134,
+   "t": "2026-10-27"
+  },
+  "londonstadium|selhurst": {
+   "m": 75,
+   "t": "2026-10-27"
+  },
+  "londonstadium|spurs": {
+   "m": 44,
+   "t": "2026-10-27"
+  },
+  "londonstadium|stamford": {
+   "m": 62,
+   "t": "2026-10-27"
+  },
+  "londonstadium|valley": {
+   "m": 42,
+   "t": "2026-10-27"
+  },
+  "londonstadium|vicarage": {
+   "m": 75,
+   "t": "2026-10-27"
+  },
+  "mac3park|philips": {
+   "m": 149,
+   "t": "2026-10-27"
+  },
+  "mac3park|willem2": {
+   "m": 163,
+   "t": "2026-10-27"
+  },
+  "mac3park|woudestein": {
+   "m": 138,
+   "t": "2026-10-27"
+  },
+  "mapei|monza": {
+   "m": 141,
+   "t": "2026-10-27"
+  },
+  "mapei|penzo": {
+   "m": 203,
+   "t": "2026-10-27"
+  },
+  "mapei|sansiro": {
+   "m": 111,
+   "t": "2026-10-27"
+  },
+  "mapei|tardini": {
+   "m": 135,
+   "t": "2026-10-27"
+  },
+  "mkm|oldtrafford": {
+   "m": 164,
+   "t": "2026-10-27"
+  },
+  "mkm|pridepark": {
+   "m": 161,
+   "t": "2026-10-27"
+  },
+  "mkm|riverside": {
+   "m": 201,
+   "t": "2026-10-27"
+  },
+  "mkm|stadiumoflight": {
+   "m": 236,
+   "t": "2026-10-27"
+  },
+  "mkm|stjames": {
+   "m": 241,
+   "t": "2026-10-27"
+  },
+  "mkm|turfmoor": {
+   "m": 199,
+   "t": "2026-10-27"
+  },
+  "molineux|oldtrafford": {
+   "m": 117,
+   "t": "2026-10-27"
+  },
+  "molineux|pridepark": {
+   "m": 93,
+   "t": "2026-10-27"
+  },
+  "molineux|standrews": {
+   "m": 56,
+   "t": "2026-10-27"
+  },
+  "molineux|turfmoor": {
+   "m": 172,
+   "t": "2026-10-27"
+  },
+  "molineux|vicarage": {
+   "m": 153,
+   "t": "2026-10-27"
+  },
+  "molineux|villapark": {
+   "m": 53,
+   "t": "2026-10-27"
+  },
+  "monza|sansiro": {
+   "m": 79,
+   "t": "2026-10-27"
+  },
+  "monza|tardini": {
+   "m": 126,
+   "t": "2026-10-27"
+  },
+  "oldtrafford|pridepark": {
+   "m": 139,
+   "t": "2026-10-27"
+  },
+  "oldtrafford|riverside": {
+   "m": 204,
+   "t": "2026-10-27"
+  },
+  "oldtrafford|standrews": {
+   "m": 150,
+   "t": "2026-10-27"
+  },
+  "oldtrafford|turfmoor": {
+   "m": 110,
+   "t": "2026-10-27"
+  },
+  "oldtrafford|villapark": {
+   "m": 149,
+   "t": "2026-10-27"
+  },
+  "penzo|udine": {
+   "t": "2026-10-27"
+  },
+  "philips|willem2": {
+   "m": 70,
+   "t": "2026-10-27"
+  },
+  "philips|woudestein": {
+   "m": 119,
+   "t": "2026-10-27"
+  },
+  "pridepark|standrews": {
+   "m": 79,
+   "t": "2026-10-27"
+  },
+  "pridepark|turfmoor": {
+   "m": 204,
+   "t": "2026-10-27"
+  },
+  "pridepark|vicarage": {
+   "m": 154,
+   "t": "2026-10-27"
+  },
+  "pridepark|villapark": {
+   "m": 82,
+   "t": "2026-10-27"
+  },
+  "riverside|stadiumoflight": {
+   "m": 85,
+   "t": "2026-10-27"
+  },
+  "riverside|stjames": {
+   "m": 84,
+   "t": "2026-10-27"
+  },
+  "riverside|turfmoor": {
+   "m": 213,
+   "t": "2026-10-27"
+  },
+  "sansiro|tardini": {
+   "m": 101,
+   "t": "2026-10-27"
+  },
+  "selhurst|spurs": {
+   "m": 76,
+   "t": "2026-10-27"
+  },
+  "selhurst|stamford": {
+   "m": 56,
+   "t": "2026-10-27"
+  },
+  "selhurst|valley": {
+   "m": 75,
+   "t": "2026-10-27"
+  },
+  "selhurst|vicarage": {
+   "m": 98,
+   "t": "2026-10-27"
+  },
+  "spurs|stamford": {
+   "m": 52,
+   "t": "2026-10-27"
+  },
+  "spurs|standrews": {
+   "m": 133,
+   "t": "2026-10-27"
+  },
+  "spurs|valley": {
+   "m": 62,
+   "t": "2026-10-27"
+  },
+  "spurs|vicarage": {
+   "m": 68,
+   "t": "2026-10-27"
+  },
+  "spurs|villapark": {
+   "m": 132,
+   "t": "2026-10-27"
+  },
+  "stadiumoflight|stjames": {
+   "m": 50,
+   "t": "2026-10-27"
+  },
+  "stadiumoflight|turfmoor": {
+   "m": 282,
+   "t": "2026-10-27"
+  },
+  "stamford|standrews": {
+   "m": 136,
+   "t": "2026-10-27"
+  },
+  "stamford|valley": {
+   "m": 62,
+   "t": "2026-10-27"
+  },
+  "stamford|vicarage": {
+   "m": 73,
+   "t": "2026-10-27"
+  },
+  "standrews|turfmoor": {
+   "m": 206,
+   "t": "2026-10-27"
+  },
+  "standrews|vicarage": {
+   "m": 133,
+   "t": "2026-10-27"
+  },
+  "standrews|villapark": {
+   "m": 43,
+   "t": "2026-10-27"
+  },
+  "stjames|turfmoor": {
+   "m": 270,
+   "t": "2026-10-27"
+  },
+  "turfmoor|villapark": {
+   "m": 211,
+   "t": "2026-10-27"
+  },
+  "valley|vicarage": {
+   "m": 88,
+   "t": "2026-10-27"
+  },
+  "vicarage|villapark": {
+   "m": 125,
+   "t": "2026-10-27"
+  },
+  "willem2|woudestein": {
+   "m": 85,
+   "t": "2026-10-27"
+  }
+ },
+ "hub": {
+  "amsterdam": {
+   "abelenstra": {
+    "last": "23:34",
+    "m": 124,
+    "n": true,
+    "nm": 135,
+    "t": "2026-10-27"
+   },
+   "adelaarshorst": {
+    "last": "23:58",
+    "m": 90,
+    "n": true,
+    "nm": 106,
+    "t": "2026-10-27"
+   },
+   "afas": {
+    "last": "23:53",
+    "m": 72,
+    "n": true,
+    "nm": 89,
+    "t": "2026-10-27"
+   },
+   "arena": {
+    "last": "01:46",
+    "m": 26,
+    "n": true,
+    "nm": 25,
+    "t": "2026-10-27"
+   },
+   "bingoal": {
+    "last": "00:22",
+    "m": 81,
+    "n": true,
+    "nm": 86,
+    "t": "2026-10-27"
+   },
+   "buko": {
+    "last": "00:39",
+    "m": 37,
+    "n": true,
+    "nm": 45,
+    "t": "2026-10-27"
+   },
+   "euroborg": {
+    "last": "23:23",
+    "m": 148,
+    "n": true,
+    "nm": 146,
+    "t": "2026-10-27"
+   },
+   "fortuna": {
+    "last": "23:54",
+    "m": 149,
+    "n": true,
+    "nm": 171,
+    "t": "2026-10-27"
+   },
+   "galgenwaard": {
+    "last": "00:57",
+    "m": 41,
+    "n": true,
+    "nm": 55,
+    "t": "2026-10-27"
+   },
+   "goffert": {
+    "last": "00:06",
+    "m": 107,
+    "n": true,
+    "nm": 123,
+    "t": "2026-10-27"
+   },
+   "grolsch": {
+    "last": "00:00",
+    "m": 142,
+    "n": true,
+    "nm": 139,
+    "t": "2026-10-27"
+   },
+   "kasteel": {
+    "last": "00:33",
+    "m": 64,
+    "n": true,
+    "nm": 63,
+    "t": "2026-10-27"
+   },
+   "kooi": {
+    "last": "23:29",
+    "m": 142,
+    "n": true,
+    "nm": 140,
+    "t": "2026-10-27"
+   },
+   "kuip": {
+    "last": "00:01",
+    "m": 78,
+    "n": true,
+    "nm": 86,
+    "t": "2026-10-27"
+   },
+   "mac3park": {
+    "last": "00:52",
+    "m": 85,
+    "n": true,
+    "nm": 93,
+    "t": "2026-10-27"
+   },
+   "philips": {
+    "last": "01:04",
+    "m": 91,
+    "n": true,
+    "nm": 92,
+    "t": "2026-10-27"
+   },
+   "willem2": {
+    "last": "00:04",
+    "m": 101,
+    "n": true,
+    "nm": 99,
+    "t": "2026-10-27"
+   },
+   "woudestein": {
+    "last": "00:35",
+    "m": 68,
+    "n": true,
+    "nm": 75,
+    "t": "2026-10-27"
+   }
+  },
+  "manchester": {
+   "anfield": {
+    "last": "00:01",
+    "m": 86,
+    "n": true,
+    "nm": 81,
+    "t": "2026-10-27"
+   },
+   "bet365": {
+    "m": 74,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "bolton": {
+    "last": "00:05",
+    "m": 42,
+    "n": true,
+    "nm": 40,
+    "t": "2026-10-27"
+   },
+   "bramall": {
+    "m": 70,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "caeras": {
+    "last": "22:56",
+    "m": 98,
+    "n": true,
+    "nm": 96,
+    "t": "2026-10-27"
+   },
+   "cbsarena": {
+    "last": "22:45",
+    "m": 140,
+    "n": true,
+    "nm": 196,
+    "t": "2026-10-27"
+   },
+   "cityground": {
+    "m": 127,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "craven": {
+    "m": 180,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "deepdale": {
+    "last": "22:43",
+    "m": 68,
+    "n": true,
+    "nm": 107,
+    "t": "2026-10-27"
+   },
+   "den": {
+    "m": 162,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "ellandroad": {
+    "last": "22:49",
+    "m": 92,
+    "n": true,
+    "nm": 110,
+    "t": "2026-10-27"
+   },
+   "emirates": {
+    "m": 153,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "etihad": {
+    "last": "01:48",
+    "m": 17,
+    "n": true,
+    "nm": 16,
+    "t": "2026-10-27"
+   },
+   "ewood": {
+    "last": "22:59",
+    "m": 76,
+    "n": true,
+    "nm": 106,
+    "t": "2026-10-27"
+   },
+   "gtech": {
+    "m": 185,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "hawthorns": {
+    "last": "23:28",
+    "m": 113,
+    "n": true,
+    "nm": 158,
+    "t": "2026-10-27"
+   },
+   "hilldickinson": {
+    "last": "23:48",
+    "m": 85,
+    "n": true,
+    "nm": 87,
+    "t": "2026-10-27"
+   },
+   "lner": {
+    "m": 152,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "loftus": {
+    "m": 168,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "londonstadium": {
+    "m": 166,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "mkm": {
+    "m": 146,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "molineux": {
+    "last": "23:17",
+    "m": 88,
+    "n": true,
+    "nm": 98,
+    "t": "2026-10-27"
+   },
+   "oldtrafford": {
+    "last": "01:48",
+    "m": 30,
+    "n": true,
+    "nm": 29,
+    "t": "2026-10-27"
+   },
+   "pridepark": {
+    "m": 113,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "riverside": {
+    "m": 187,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "selhurst": {
+    "m": 192,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "spurs": {
+    "m": 162,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "stadiumoflight": {
+    "m": 221,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "stamford": {
+    "m": 169,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "standrews": {
+    "last": "23:36",
+    "m": 115,
+    "n": true,
+    "nm": 144,
+    "t": "2026-10-27"
+   },
+   "stjames": {
+    "m": 229,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "turfmoor": {
+    "last": "23:24",
+    "m": 81,
+    "n": true,
+    "nm": 90,
+    "t": "2026-10-27"
+   },
+   "valley": {
+    "m": 174,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "vicarage": {
+    "m": 168,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "villapark": {
+    "last": "23:32",
+    "m": 117,
+    "n": true,
+    "nm": 166,
+    "t": "2026-10-27"
+   }
+  },
+  "milan": {
+   "allianz": {
+    "m": 85,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "bergamo": {
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "como": {
+    "last": "23:06",
+    "m": 55,
+    "n": true,
+    "nm": 90,
+    "t": "2026-10-27"
+   },
+   "dallara": {
+    "m": 95,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "ferraris": {
+    "last": "22:46",
+    "m": 117,
+    "n": true,
+    "nm": 191,
+    "t": "2026-10-27"
+   },
+   "franchi": {
+    "m": 138,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "grandetorino": {
+    "m": 81,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "mapei": {
+    "last": "22:30",
+    "m": 74,
+    "n": true,
+    "nm": 81,
+    "t": "2026-10-27"
+   },
+   "monza": {
+    "m": 49,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "olimpico": {
+    "m": 233,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "penzo": {
+    "m": 190,
+    "n": false,
+    "t": "2026-10-27"
+   },
+   "sansiro": {
+    "last": "01:42",
+    "m": 32,
+    "n": true,
+    "nm": 33,
+    "t": "2026-10-27"
+   },
+   "tardini": {
+    "last": "23:02",
+    "m": 97,
+    "n": true,
+    "nm": 84,
+    "t": "2026-10-27"
+   },
+   "udine": {
+    "n": false,
+    "t": "2026-10-27"
+   }
+  }
+ },
+ "source": "Transitous /api/v6",
+ "updated": "2026-10-27T20:58Z"
+}
