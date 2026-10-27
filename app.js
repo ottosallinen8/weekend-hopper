@@ -59,11 +59,14 @@
       return Math.min(t1 + t2 + (t1 && t2 ? 10 : 0), 30 + km(a, b));
     }
     function hubEntry(hub, gk) { return TH[hub] && TH[hub][gk]; }
+    var EST = CFG.estimate || {};
+    function estimate(cc, d) { var f = EST[cc] || EST.ENG || [25, 0.9, 1]; return r5(f[0] + f[1] * Math.pow(d, f[2])); }
+    function inReach(hub, gk) { return km(HUBS[hub], GR[gk]) <= HUBS[hub].radiusKm; }
     function travelHG(hub, gk) {
       var e = hubEntry(hub, gk); if (e && e.m) return e.m;
-      var g = GR[gk];
-      if (g.rc && RAIL[hub] && RAIL[hub][g.rc] != null) return r5(RAIL[hub][g.rc] + g.acc);
-      return r5(25 + km(HUBS[hub], g) * 0.9);
+      var g = GR[gk], h = HUBS[hub];
+      if (h.city && g.rc && RAIL[hub] && RAIL[hub][g.rc] != null) return r5(RAIL[hub][g.rc] + g.acc);
+      return estimate(h.cc, km(h, g));
     }
     function realHG(hub, gk) { var e = hubEntry(hub, gk); return !!(e && e.m); }
     function ggEntry(a, b) { return TG[a + '|' + b] || TG[b + '|' + a]; }
@@ -75,7 +78,7 @@
         if (a.rc === b.rc) return r5(10 + 0.7 * (a.acc + b.acc));
         return r5(a.acc + railCC(a.r, a.rc, b.rc, a, b) + b.acc);
       }
-      return r5(25 + km(a, b));
+      return estimate(a.cc, km(a, b));
     }
     function realGG(a, b) { var e = ggEntry(a, b); return !!(e && e.m); }
     function lateTrouble(hub, gk, endMin, backMin) {
@@ -139,7 +142,7 @@
     }
     function findPlans(hub, from, to, maxT, maxM, pins, today) {
       var sets = collected(pins, today);
-      var cands = FX.filter(function (f) { return f.date >= from && f.date <= to && f.date >= today && GR[f.g].r === hub && travelHG(hub, f.g) <= maxT; });
+      var cands = FX.filter(function (f) { return f.date >= from && f.date <= to && f.date >= today && inReach(hub, f.g) && travelHG(hub, f.g) <= maxT; });
       var total = cands.length;
       if (cands.length > 60) {
         cands = cands.map(function (f) { return { f: f, s: buildPlan([f], hub, sets).score }; })
@@ -203,10 +206,16 @@
     function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) { /* ignore */ } }
 
     /* ---------- settings ---------- */
-    function renderControls() {
-      $('cities').innerHTML = Object.keys(HUBS).map(function (k) {
-        return '<button type="button" data-city="' + k + '" aria-pressed="' + (state.city === k) + '">' + esc(HUBS[k].name) + '</button>';
+    (function buildCityPicker() {
+      var groups = [['ITA', 'Italy'], ['ENG|WAL', 'England and Wales'], ['NED', 'Netherlands']];
+      $('city').innerHTML = groups.map(function (gr) {
+        var keys = Object.keys(HUBS).filter(function (k) { return ('|' + gr[0] + '|').indexOf('|' + HUBS[k].cc + '|') >= 0; })
+          .sort(function (a, b) { return HUBS[a].name.localeCompare(HUBS[b].name); });
+        return '<optgroup label="' + gr[1] + '">' + keys.map(function (k) { return '<option value="' + k + '">' + esc(HUBS[k].name) + '</option>'; }).join('') + '</optgroup>';
       }).join('');
+    })();
+    function renderControls() {
+      $('city').value = state.city;
       $('counts').innerHTML = [1, 2, 3].map(function (n) {
         return '<button type="button" data-m="' + n + '" aria-pressed="' + (state.maxM === n) + '">Up to ' + n + '</button>';
       }).join('');
@@ -355,8 +364,7 @@
     /* ---------- events ---------- */
     document.addEventListener('click', function (ev) {
       var b = ev.target.closest('button'); if (!b) return;
-      if (b.dataset.city) { state.city = b.dataset.city; }
-      else if (b.dataset.q !== undefined) { var w = weekend(+b.dataset.q); setDates(w.from, w.to); }
+      if (b.dataset.q !== undefined) { var w = weekend(+b.dataset.q); setDates(w.from, w.to); }
       else if (b.dataset.m) { state.maxM = +b.dataset.m; }
       else if (b.dataset.pin) { togglePin(b.dataset.pin); return; }
       else if (b.dataset.unpin) { togglePin(b.dataset.unpin); return; }
@@ -373,6 +381,7 @@
     $('maxT').addEventListener('input', function (ev) { state.maxT = +ev.target.value; $('maxTout').textContent = fmtDur(state.maxT); });
     $('maxT').addEventListener('change', function () { save(); renderPlans(true); });
     $('search').addEventListener('input', renderResults);
+    $('city').addEventListener('change', function () { if (HUBS[this.value]) { state.city = this.value; save(); renderControls(); renderPlans(true); Globe.update(); } });
 
     /* ---------- globe ---------- */
     var Globe = (function () {

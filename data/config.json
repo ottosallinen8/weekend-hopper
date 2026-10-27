@@ -5,25 +5,586 @@
    "station": "Milano Centrale",
    "lat": 45.4862,
    "lon": 9.2041,
-   "city": "MIL",
+   "cc": "ITA",
    "tz": "Europe/Rome",
-   "radiusKm": 500
+   "radiusKm": 450,
+   "city": "MIL"
+  },
+  "monza": {
+   "name": "Monza",
+   "station": "Monza",
+   "lat": 45.5776,
+   "lon": 9.2729,
+   "cc": "ITA",
+   "tz": "Europe/Rome",
+   "radiusKm": 450
+  },
+  "como": {
+   "name": "Como",
+   "station": "Como San Giovanni",
+   "lat": 45.809,
+   "lon": 9.073,
+   "cc": "ITA",
+   "tz": "Europe/Rome",
+   "radiusKm": 450
+  },
+  "bergamo": {
+   "name": "Bergamo",
+   "station": "Bergamo",
+   "lat": 45.6905,
+   "lon": 9.6752,
+   "cc": "ITA",
+   "tz": "Europe/Rome",
+   "radiusKm": 450
+  },
+  "turin": {
+   "name": "Turin",
+   "station": "Torino Porta Nuova",
+   "lat": 45.0621,
+   "lon": 7.6786,
+   "cc": "ITA",
+   "tz": "Europe/Rome",
+   "radiusKm": 450
+  },
+  "genoa": {
+   "name": "Genoa",
+   "station": "Genova Brignole",
+   "lat": 44.4066,
+   "lon": 8.947,
+   "cc": "ITA",
+   "tz": "Europe/Rome",
+   "radiusKm": 450
+  },
+  "parma": {
+   "name": "Parma",
+   "station": "Parma",
+   "lat": 44.8094,
+   "lon": 10.3283,
+   "cc": "ITA",
+   "tz": "Europe/Rome",
+   "radiusKm": 450
+  },
+  "reggioemilia": {
+   "name": "Reggio Emilia (Sassuolo)",
+   "station": "Reggio Emilia",
+   "lat": 44.6979,
+   "lon": 10.64,
+   "cc": "ITA",
+   "tz": "Europe/Rome",
+   "radiusKm": 450
+  },
+  "bologna": {
+   "name": "Bologna",
+   "station": "Bologna Centrale",
+   "lat": 44.5058,
+   "lon": 11.3431,
+   "cc": "ITA",
+   "tz": "Europe/Rome",
+   "radiusKm": 450
+  },
+  "venice": {
+   "name": "Venice",
+   "station": "Venezia Santa Lucia",
+   "lat": 45.441,
+   "lon": 12.321,
+   "cc": "ITA",
+   "tz": "Europe/Rome",
+   "radiusKm": 450
+  },
+  "florence": {
+   "name": "Florence",
+   "station": "Firenze Santa Maria Novella",
+   "lat": 43.7764,
+   "lon": 11.248,
+   "cc": "ITA",
+   "tz": "Europe/Rome",
+   "radiusKm": 450
+  },
+  "udine": {
+   "name": "Udine",
+   "station": "Udine",
+   "lat": 46.0566,
+   "lon": 13.241,
+   "cc": "ITA",
+   "tz": "Europe/Rome",
+   "radiusKm": 450
+  },
+  "rome": {
+   "name": "Rome",
+   "station": "Roma Termini",
+   "lat": 41.901,
+   "lon": 12.5016,
+   "cc": "ITA",
+   "tz": "Europe/Rome",
+   "radiusKm": 450
+  },
+  "naples": {
+   "name": "Naples",
+   "station": "Napoli Centrale",
+   "lat": 40.853,
+   "lon": 14.2724,
+   "cc": "ITA",
+   "tz": "Europe/Rome",
+   "radiusKm": 450
+  },
+  "cagliari": {
+   "name": "Cagliari",
+   "station": "Cagliari",
+   "lat": 39.2167,
+   "lon": 9.1076,
+   "cc": "ITA",
+   "tz": "Europe/Rome",
+   "radiusKm": 450
+  },
+  "lecce": {
+   "name": "Lecce",
+   "station": "Lecce",
+   "lat": 40.3457,
+   "lon": 18.168,
+   "cc": "ITA",
+   "tz": "Europe/Rome",
+   "radiusKm": 450
+  },
+  "frosinone": {
+   "name": "Frosinone",
+   "station": "Frosinone",
+   "lat": 41.6238,
+   "lon": 13.3252,
+   "cc": "ITA",
+   "tz": "Europe/Rome",
+   "radiusKm": 450
   },
   "manchester": {
    "name": "Manchester",
    "station": "Manchester Piccadilly",
    "lat": 53.4774,
    "lon": -2.2309,
-   "city": "MAN",
+   "cc": "ENG",
    "tz": "Europe/London",
-   "radiusKm": 300
+   "radiusKm": 330,
+   "city": "MAN"
+  },
+  "liverpool": {
+   "name": "Liverpool",
+   "station": "Liverpool Lime Street",
+   "lat": 53.4075,
+   "lon": -2.9779,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "leeds": {
+   "name": "Leeds",
+   "station": "Leeds",
+   "lat": 53.7955,
+   "lon": -1.5482,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "burnley": {
+   "name": "Burnley",
+   "station": "Burnley Manchester Road",
+   "lat": 53.7848,
+   "lon": -2.2492,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "blackburn": {
+   "name": "Blackburn",
+   "station": "Blackburn",
+   "lat": 53.7461,
+   "lon": -2.4794,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "preston": {
+   "name": "Preston",
+   "station": "Preston",
+   "lat": 53.7566,
+   "lon": -2.7076,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "bolton": {
+   "name": "Bolton",
+   "station": "Bolton",
+   "lat": 53.5741,
+   "lon": -2.4258,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "stoke": {
+   "name": "Stoke-on-Trent",
+   "station": "Stoke-on-Trent",
+   "lat": 53.0079,
+   "lon": -2.1808,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "sheffield": {
+   "name": "Sheffield",
+   "station": "Sheffield",
+   "lat": 53.3781,
+   "lon": -1.462,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "wolverhampton": {
+   "name": "Wolverhampton",
+   "station": "Wolverhampton",
+   "lat": 52.5876,
+   "lon": -2.1196,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "westbromwich": {
+   "name": "West Bromwich",
+   "station": "The Hawthorns",
+   "lat": 52.5054,
+   "lon": -1.964,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "birmingham": {
+   "name": "Birmingham",
+   "station": "Birmingham New Street",
+   "lat": 52.4778,
+   "lon": -1.899,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "derby": {
+   "name": "Derby",
+   "station": "Derby",
+   "lat": 52.9166,
+   "lon": -1.4633,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "nottingham": {
+   "name": "Nottingham",
+   "station": "Nottingham",
+   "lat": 52.9471,
+   "lon": -1.1465,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "coventry": {
+   "name": "Coventry",
+   "station": "Coventry",
+   "lat": 52.4008,
+   "lon": -1.5135,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "hull": {
+   "name": "Hull",
+   "station": "Hull Paragon",
+   "lat": 53.7441,
+   "lon": -0.3457,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "middlesbrough": {
+   "name": "Middlesbrough",
+   "station": "Middlesbrough",
+   "lat": 54.579,
+   "lon": -1.2347,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "newcastle": {
+   "name": "Newcastle",
+   "station": "Newcastle Central",
+   "lat": 54.9685,
+   "lon": -1.6174,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "sunderland": {
+   "name": "Sunderland",
+   "station": "Sunderland",
+   "lat": 54.9055,
+   "lon": -1.3826,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "lincoln": {
+   "name": "Lincoln",
+   "station": "Lincoln Central",
+   "lat": 53.2262,
+   "lon": -0.5398,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "london": {
+   "name": "London",
+   "station": "London King's Cross",
+   "lat": 51.5308,
+   "lon": -0.1238,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "watford": {
+   "name": "Watford",
+   "station": "Watford Junction",
+   "lat": 51.6635,
+   "lon": -0.3965,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "brighton": {
+   "name": "Brighton",
+   "station": "Brighton",
+   "lat": 50.829,
+   "lon": -0.1413,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "bournemouth": {
+   "name": "Bournemouth",
+   "station": "Bournemouth",
+   "lat": 50.7272,
+   "lon": -1.8645,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "ipswich": {
+   "name": "Ipswich",
+   "station": "Ipswich",
+   "lat": 52.0507,
+   "lon": 1.1445,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "norwich": {
+   "name": "Norwich",
+   "station": "Norwich",
+   "lat": 52.6271,
+   "lon": 1.3068,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "southampton": {
+   "name": "Southampton",
+   "station": "Southampton Central",
+   "lat": 50.9075,
+   "lon": -1.4137,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "portsmouth": {
+   "name": "Portsmouth",
+   "station": "Portsmouth & Southsea",
+   "lat": 50.7985,
+   "lon": -1.0907,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "bristol": {
+   "name": "Bristol",
+   "station": "Bristol Temple Meads",
+   "lat": 51.4491,
+   "lon": -2.5813,
+   "cc": "ENG",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "wrexham": {
+   "name": "Wrexham",
+   "station": "Wrexham General",
+   "lat": 53.0505,
+   "lon": -3.0016,
+   "cc": "WAL",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "cardiff": {
+   "name": "Cardiff",
+   "station": "Cardiff Central",
+   "lat": 51.4758,
+   "lon": -3.1792,
+   "cc": "WAL",
+   "tz": "Europe/London",
+   "radiusKm": 330
+  },
+  "swansea": {
+   "name": "Swansea",
+   "station": "Swansea",
+   "lat": 51.6252,
+   "lon": -3.9415,
+   "cc": "WAL",
+   "tz": "Europe/London",
+   "radiusKm": 330
   },
   "amsterdam": {
    "name": "Amsterdam",
    "station": "Amsterdam Centraal",
    "lat": 52.3791,
    "lon": 4.9003,
-   "city": "AMS",
+   "cc": "NED",
+   "tz": "Europe/Amsterdam",
+   "radiusKm": 250,
+   "city": "AMS"
+  },
+  "alkmaar": {
+   "name": "Alkmaar",
+   "station": "Alkmaar",
+   "lat": 52.6378,
+   "lon": 4.7395,
+   "cc": "NED",
+   "tz": "Europe/Amsterdam",
+   "radiusKm": 250
+  },
+  "velsen": {
+   "name": "Velsen (Telstar)",
+   "station": "Beverwijk",
+   "lat": 52.4787,
+   "lon": 4.6528,
+   "cc": "NED",
+   "tz": "Europe/Amsterdam",
+   "radiusKm": 250
+  },
+  "utrecht": {
+   "name": "Utrecht",
+   "station": "Utrecht Centraal",
+   "lat": 52.0894,
+   "lon": 5.11,
+   "cc": "NED",
+   "tz": "Europe/Amsterdam",
+   "radiusKm": 250
+  },
+  "rotterdam": {
+   "name": "Rotterdam",
+   "station": "Rotterdam Centraal",
+   "lat": 51.9244,
+   "lon": 4.469,
+   "cc": "NED",
+   "tz": "Europe/Amsterdam",
+   "radiusKm": 250
+  },
+  "thehague": {
+   "name": "The Hague",
+   "station": "Den Haag Centraal",
+   "lat": 52.0808,
+   "lon": 4.3245,
+   "cc": "NED",
+   "tz": "Europe/Amsterdam",
+   "radiusKm": 250
+  },
+  "eindhoven": {
+   "name": "Eindhoven",
+   "station": "Eindhoven Centraal",
+   "lat": 51.4433,
+   "lon": 5.4797,
+   "cc": "NED",
+   "tz": "Europe/Amsterdam",
+   "radiusKm": 250
+  },
+  "nijmegen": {
+   "name": "Nijmegen",
+   "station": "Nijmegen",
+   "lat": 51.843,
+   "lon": 5.8528,
+   "cc": "NED",
+   "tz": "Europe/Amsterdam",
+   "radiusKm": 250
+  },
+  "tilburg": {
+   "name": "Tilburg",
+   "station": "Tilburg",
+   "lat": 51.5605,
+   "lon": 5.0838,
+   "cc": "NED",
+   "tz": "Europe/Amsterdam",
+   "radiusKm": 250
+  },
+  "deventer": {
+   "name": "Deventer",
+   "station": "Deventer",
+   "lat": 52.2573,
+   "lon": 6.1606,
+   "cc": "NED",
+   "tz": "Europe/Amsterdam",
+   "radiusKm": 250
+  },
+  "zwolle": {
+   "name": "Zwolle",
+   "station": "Zwolle",
+   "lat": 52.5046,
+   "lon": 6.0912,
+   "cc": "NED",
+   "tz": "Europe/Amsterdam",
+   "radiusKm": 250
+  },
+  "enschede": {
+   "name": "Enschede",
+   "station": "Enschede",
+   "lat": 52.2222,
+   "lon": 6.8907,
+   "cc": "NED",
+   "tz": "Europe/Amsterdam",
+   "radiusKm": 250
+  },
+  "heerenveen": {
+   "name": "Heerenveen",
+   "station": "Heerenveen",
+   "lat": 52.9614,
+   "lon": 5.9152,
+   "cc": "NED",
+   "tz": "Europe/Amsterdam",
+   "radiusKm": 250
+  },
+  "leeuwarden": {
+   "name": "Leeuwarden",
+   "station": "Leeuwarden",
+   "lat": 53.1966,
+   "lon": 5.793,
+   "cc": "NED",
+   "tz": "Europe/Amsterdam",
+   "radiusKm": 250
+  },
+  "groningen": {
+   "name": "Groningen",
+   "station": "Groningen",
+   "lat": 53.2108,
+   "lon": 6.5642,
+   "cc": "NED",
+   "tz": "Europe/Amsterdam",
+   "radiusKm": 250
+  },
+  "sittard": {
+   "name": "Sittard",
+   "station": "Sittard",
+   "lat": 51.0002,
+   "lon": 5.8665,
+   "cc": "NED",
    "tz": "Europe/Amsterdam",
    "radiusKm": 250
   }
@@ -1414,5 +1975,28 @@
    "cc": "",
    "af": 848
   }
- ]
+ ],
+ "estimate": {
+  "about": "Fallback journey minutes = a + b * km^p (straight-line km), fitted on real Transitous journeys. Used only where no real time exists yet.",
+  "ITA": [
+   28.9,
+   9.1604,
+   0.5
+  ],
+  "ENG": [
+   -11.3,
+   24.853,
+   0.4
+  ],
+  "NED": [
+   26.9,
+   1.6634,
+   0.9
+  ],
+  "WAL": [
+   -11.3,
+   24.853,
+   0.4
+  ]
+ }
 }

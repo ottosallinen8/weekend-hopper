@@ -2,7 +2,7 @@
 
 Testing app for tracking football games.
 
-Weekend Hopper plans a football weekend from **Milan, Manchester or Amsterdam**: pick your travel dates and it suggests the best one to three real matches nearby, in an order that works, with public transport times. Pin every game you go to on a globe and collect grounds, teams and countries.
+Weekend Hopper plans a football weekend from **any of the 65 cities with a club in Serie A, the Premier League, the Championship or the Eredivisie**: pick your base city and travel dates and it suggests the best one to three real matches nearby, in an order that works, with public transport times. Pin every game you go to on a globe and collect grounds, teams and countries.
 
 The site is a plain static page (`index.html` + `app.js`) served by GitHub Pages. A GitHub Actions job refreshes the data every night.
 
@@ -10,7 +10,7 @@ The site is a plain static page (`index.html` + `app.js`) served by GitHub Pages
 
 | File | What it holds | Updated by |
 |---|---|---|
-| `data/config.json` | Base cities, hand-checked grounds, club → ground map, leagues to fetch, typical train times used as a fallback | Hand-edited |
+| `data/config.json` | Base cities (main station, reach radius), hand-checked grounds, club → ground map, leagues to fetch, fallback travel estimates | Hand-edited |
 | `data/overrides.json` | Manual kickoff fixes for when the free fixture feed lags | Hand-edited |
 | `data/fixtures.json` | Every match this season: date, local kickoff, teams, league, ground, score | `scripts/update_fixtures.py` |
 | `data/venues.json` | All grounds with coordinates, including new ones found via the fixture API | `scripts/update_fixtures.py` |
@@ -19,7 +19,7 @@ The site is a plain static page (`index.html` + `app.js`) served by GitHub Pages
 
 **Fixtures.** Without an API key, the job uses [openfootball](https://github.com/openfootball/football.json) for Serie A, Premier League, Championship and Eredivisie. With an `API_FOOTBALL_KEY` secret it uses [API-Football](https://www.api-football.com) for every league listed in `config.json` (incl. Serie B, League One/Two, National League, Eerste Divisie, cups and European games), about 16 requests per night. New grounds are located once with OpenStreetMap Nominatim and cached.
 
-**Travel times.** For each base city the job asks Transitous for the fastest Saturday-morning journey to each ground, whether there is a train back after a late kickoff, and ground-to-ground times for same-day doubles. Results are cached for three weeks, so a normal night makes only a handful of requests. When no real time exists yet the site shows an estimate and labels it.
+**Travel times.** For each base city the job asks Transitous for the fastest Saturday-morning journey to every ground in reach, whether there is a train back after a late kickoff, and ground-to-ground times for same-day doubles. Each run makes at most 1,200 requests, shortest trips first, and results are cached for three weeks, so the full set (about 1,800 city-to-ground trips) fills in over a few nights and later nights only top up. Where no real time exists yet the site uses an estimate fitted on real Transitous journeys (`estimate` in `config.json`) and labels it.
 
 ## Setup
 
@@ -31,4 +31,4 @@ Run locally: `python scripts/update_fixtures.py && python scripts/update_travel.
 
 ## Each new season
 
-Promoted clubs need a line in `config.json` → `clubs` (openfootball name → short name and ground). The fixture job prints any missing clubs in its log. With API-Football this is not needed, since grounds come from the API.
+Promoted clubs need a line in `config.json` → `clubs` (openfootball name → short name and ground) and, if their city is new, a ground in `grounds` and a base city in `hubs`. The fixture job prints any missing clubs in its log. With API-Football the clubs and grounds come from the API; only new base cities need adding.

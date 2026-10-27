@@ -21,7 +21,7 @@ jobs:
     # Nightly and manual runs refresh the data; plain pushes only redeploy.
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

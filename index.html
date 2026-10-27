@@ -76,7 +76,7 @@ button:focus-visible, input:focus-visible, a:focus-visible { outline: 3px solid 
 input[type=range] { width: 100%; accent-color: var(--pitch); }
 .dates { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .dates label { display: grid; gap: 4px; font: 500 13px var(--font-body); color: var(--ink2); }
-input[type=date], input[type=search] {
+input[type=date], input[type=search], select {
   font: 500 16px var(--font-body); color: var(--ink); background: var(--bg);
   border: 1.5px solid var(--line); border-radius: 6px; padding: 8px 10px; width: 100%; min-width: 0; box-sizing: border-box;
 }
@@ -158,13 +158,13 @@ h2 { font: 700 30px/1 var(--font-display); text-transform: uppercase; letter-spa
   <header>
     <div class="eyebrow">Groundhopping planner</div>
     <h1>Weekend Hopper</h1>
-    <p class="lede">Pick a city and your travel dates. You get the best one to three real matches nearby, in an order that works, with train times. You book flights and a hotel in the city yourself. Pin every game you go to on your globe.</p>
+    <p class="lede">Pick any city with a club in Serie A, the Premier League, the Championship or the Eredivisie, and your travel dates. You get the best one to three real matches nearby, in an order that works, with train times. You book flights and a hotel in the city yourself. Pin every game you go to on your globe.</p>
   </header>
 
   <section class="panel" aria-label="Trip settings">
     <div class="field">
-      <div class="label">Base city</div>
-      <div class="seg" id="cities"></div>
+      <label class="label" for="city">Base city <output>where you sleep</output></label>
+      <select id="city"></select>
     </div>
     <div class="field">
       <div class="label">Travel dates <output id="span"></output></div>
