@@ -1,0 +1,1418 @@
+{
+ "hubs": {
+  "milan": {
+   "name": "Milan",
+   "station": "Milano Centrale",
+   "lat": 45.4862,
+   "lon": 9.2041,
+   "city": "MIL",
+   "tz": "Europe/Rome",
+   "radiusKm": 500
+  },
+  "manchester": {
+   "name": "Manchester",
+   "station": "Manchester Piccadilly",
+   "lat": 53.4774,
+   "lon": -2.2309,
+   "city": "MAN",
+   "tz": "Europe/London",
+   "radiusKm": 300
+  },
+  "amsterdam": {
+   "name": "Amsterdam",
+   "station": "Amsterdam Centraal",
+   "lat": 52.3791,
+   "lon": 4.9003,
+   "city": "AMS",
+   "tz": "Europe/Amsterdam",
+   "radiusKm": 250
+  }
+ },
+ "rail": {
+  "milan": {
+   "MIL": 0,
+   "MON": 10,
+   "COM": 40,
+   "BGO": 50,
+   "TOR": 55,
+   "GEN": 100,
+   "PAR": 55,
+   "REG": 40,
+   "BOL": 65,
+   "VEN": 145,
+   "FIR": 115,
+   "UDI": 195,
+   "ROM": 180
+  },
+  "manchester": {
+   "MAN": 0,
+   "LIV": 45,
+   "LEE": 55,
+   "BUR": 65,
+   "BLA": 70,
+   "PRE": 50,
+   "BOL": 30,
+   "STO": 40,
+   "SHE": 55,
+   "WRE": 105,
+   "WOL": 70,
+   "BIR": 90,
+   "DER": 95,
+   "NOT": 115,
+   "COV": 115,
+   "HUL": 110,
+   "MID": 135,
+   "NEW": 150,
+   "SUN": 175,
+   "LIN": 145,
+   "LON": 125
+  },
+  "amsterdam": {
+   "AMS": 0,
+   "ALK": 35,
+   "HAA": 15,
+   "UTR": 30,
+   "ROT": 40,
+   "DHG": 50,
+   "EIN": 80,
+   "NIJ": 85,
+   "TIL": 80,
+   "DEV": 80,
+   "ZWO": 65,
+   "ENS": 125,
+   "HEE": 115,
+   "LEE": 135,
+   "GRO": 130,
+   "SIT": 145
+  }
+ },
+ "pairs": {
+  "BOL|FIR": 37,
+  "BOL|VEN": 90,
+  "BOL|PAR": 45,
+  "BOL|REG": 35,
+  "PAR|REG": 15,
+  "TOR|GEN": 105,
+  "BOL|ROM": 135,
+  "FIR|ROM": 95,
+  "VEN|UDI": 115,
+  "FIR|VEN": 125,
+  "BGO|COM": 100,
+  "MON|BGO": 35,
+  "MON|COM": 30,
+  "TOR|BOL": 120,
+  "LIV|PRE": 50,
+  "PRE|BLA": 25,
+  "BLA|BUR": 25,
+  "PRE|BUR": 50,
+  "LEE|SHE": 40,
+  "LEE|HUL": 55,
+  "LEE|NEW": 90,
+  "LEE|MID": 80,
+  "NEW|SUN": 30,
+  "NEW|MID": 65,
+  "SUN|MID": 50,
+  "SHE|DER": 30,
+  "DER|NOT": 20,
+  "SHE|NOT": 50,
+  "BIR|WOL": 20,
+  "BIR|COV": 20,
+  "BIR|DER": 40,
+  "BIR|NOT": 70,
+  "BIR|STO": 50,
+  "STO|DER": 50,
+  "WOL|STO": 40,
+  "LON|BIR": 85,
+  "LON|COV": 60,
+  "LON|DER": 90,
+  "LON|NOT": 100,
+  "LON|SHE": 125,
+  "LON|LEE": 135,
+  "LON|WOL": 110,
+  "LON|STO": 90,
+  "LON|LIV": 130,
+  "LON|NEW": 170,
+  "LON|LIN": 120,
+  "LON|HUL": 160,
+  "LIV|WRE": 80,
+  "LIV|LEE": 90,
+  "SHE|LIN": 80,
+  "HUL|SHE": 80,
+  "ROT|DHG": 25,
+  "UTR|ROT": 40,
+  "UTR|DHG": 40,
+  "UTR|EIN": 50,
+  "UTR|NIJ": 60,
+  "UTR|TIL": 50,
+  "UTR|ZWO": 60,
+  "UTR|DEV": 55,
+  "ROT|TIL": 55,
+  "ROT|EIN": 70,
+  "EIN|TIL": 25,
+  "EIN|NIJ": 65,
+  "EIN|SIT": 40,
+  "ZWO|DEV": 25,
+  "ZWO|GRO": 60,
+  "ZWO|HEE": 40,
+  "ZWO|LEE": 55,
+  "ZWO|ENS": 70,
+  "DEV|ENS": 45,
+  "HEE|LEE": 20,
+  "HEE|GRO": 60,
+  "LEE|GRO": 50,
+  "NIJ|DEV": 60,
+  "HAA|ALK": 25,
+  "HAA|DHG": 40,
+  "HAA|ROT": 55,
+  "ALK|UTR": 60
+ },
+ "grounds": {
+  "sansiro": {
+   "n": "San Siro",
+   "c": "Milan",
+   "rc": "MIL",
+   "acc": 35,
+   "lat": 45.4781,
+   "lon": 9.124,
+   "cc": "ITA",
+   "r": "milan"
+  },
+  "monza": {
+   "n": "U-Power Stadium",
+   "c": "Monza",
+   "rc": "MON",
+   "acc": 25,
+   "lat": 45.5826,
+   "lon": 9.3079,
+   "cc": "ITA",
+   "r": "milan"
+  },
+  "como": {
+   "n": "Stadio Giuseppe Sinigaglia",
+   "c": "Como",
+   "rc": "COM",
+   "acc": 15,
+   "lat": 45.8139,
+   "lon": 9.0722,
+   "cc": "ITA",
+   "r": "milan"
+  },
+  "bergamo": {
+   "n": "New Balance Arena",
+   "c": "Bergamo",
+   "rc": "BGO",
+   "acc": 20,
+   "lat": 45.7089,
+   "lon": 9.6808,
+   "cc": "ITA",
+   "r": "milan"
+  },
+  "allianz": {
+   "n": "Allianz Stadium",
+   "c": "Turin",
+   "rc": "TOR",
+   "acc": 35,
+   "lat": 45.1096,
+   "lon": 7.6413,
+   "cc": "ITA",
+   "r": "milan"
+  },
+  "grandetorino": {
+   "n": "Stadio Olimpico Grande Torino",
+   "c": "Turin",
+   "rc": "TOR",
+   "acc": 25,
+   "lat": 45.0419,
+   "lon": 7.6501,
+   "cc": "ITA",
+   "r": "milan"
+  },
+  "ferraris": {
+   "n": "Stadio Luigi Ferraris",
+   "c": "Genoa",
+   "rc": "GEN",
+   "acc": 15,
+   "lat": 44.4165,
+   "lon": 8.9525,
+   "cc": "ITA",
+   "r": "milan"
+  },
+  "tardini": {
+   "n": "Stadio Ennio Tardini",
+   "c": "Parma",
+   "rc": "PAR",
+   "acc": 20,
+   "lat": 44.7949,
+   "lon": 10.3383,
+   "cc": "ITA",
+   "r": "milan"
+  },
+  "mapei": {
+   "n": "Mapei Stadium",
+   "c": "Reggio Emilia",
+   "rc": "REG",
+   "acc": 25,
+   "lat": 44.7147,
+   "lon": 10.6497,
+   "cc": "ITA",
+   "r": "milan"
+  },
+  "dallara": {
+   "n": "Stadio Renato Dall'Ara",
+   "c": "Bologna",
+   "rc": "BOL",
+   "acc": 20,
+   "lat": 44.4922,
+   "lon": 11.3098,
+   "cc": "ITA",
+   "r": "milan"
+  },
+  "penzo": {
+   "n": "Stadio Pier Luigi Penzo",
+   "c": "Venice",
+   "rc": "VEN",
+   "acc": 30,
+   "lat": 45.428,
+   "lon": 12.364,
+   "cc": "ITA",
+   "r": "milan"
+  },
+  "franchi": {
+   "n": "Stadio Artemio Franchi",
+   "c": "Florence",
+   "rc": "FIR",
+   "acc": 25,
+   "lat": 43.7808,
+   "lon": 11.2823,
+   "cc": "ITA",
+   "r": "milan"
+  },
+  "udine": {
+   "n": "Bluenergy Stadium",
+   "c": "Udine",
+   "rc": "UDI",
+   "acc": 20,
+   "lat": 46.0816,
+   "lon": 13.2003,
+   "cc": "ITA",
+   "r": "milan"
+  },
+  "olimpico": {
+   "n": "Stadio Olimpico",
+   "c": "Rome",
+   "rc": "ROM",
+   "acc": 30,
+   "lat": 41.9339,
+   "lon": 12.4547,
+   "cc": "ITA",
+   "r": "milan"
+  },
+  "maradona": {
+   "n": "Stadio Diego Armando Maradona",
+   "c": "Naples",
+   "rc": null,
+   "acc": 0,
+   "lat": 40.828,
+   "lon": 14.193,
+   "cc": "ITA",
+   "r": null
+  },
+  "cagliari": {
+   "n": "Unipol Domus",
+   "c": "Cagliari",
+   "rc": null,
+   "acc": 0,
+   "lat": 39.2001,
+   "lon": 9.1376,
+   "cc": "ITA",
+   "r": null
+  },
+  "lecce": {
+   "n": "Stadio Via del Mare",
+   "c": "Lecce",
+   "rc": null,
+   "acc": 0,
+   "lat": 40.3653,
+   "lon": 18.2089,
+   "cc": "ITA",
+   "r": null
+  },
+  "frosinone": {
+   "n": "Stadio Benito Stirpe",
+   "c": "Frosinone",
+   "rc": null,
+   "acc": 0,
+   "lat": 41.6347,
+   "lon": 13.3227,
+   "cc": "ITA",
+   "r": null
+  },
+  "oldtrafford": {
+   "n": "Old Trafford",
+   "c": "Manchester",
+   "rc": "MAN",
+   "acc": 30,
+   "lat": 53.4631,
+   "lon": -2.2913,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "etihad": {
+   "n": "Etihad Stadium",
+   "c": "Manchester",
+   "rc": "MAN",
+   "acc": 20,
+   "lat": 53.4831,
+   "lon": -2.2004,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "anfield": {
+   "n": "Anfield",
+   "c": "Liverpool",
+   "rc": "LIV",
+   "acc": 25,
+   "lat": 53.4308,
+   "lon": -2.9608,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "hilldickinson": {
+   "n": "Hill Dickinson Stadium",
+   "c": "Liverpool",
+   "rc": "LIV",
+   "acc": 30,
+   "lat": 53.4246,
+   "lon": -3.0013,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "ellandroad": {
+   "n": "Elland Road",
+   "c": "Leeds",
+   "rc": "LEE",
+   "acc": 25,
+   "lat": 53.7778,
+   "lon": -1.5721,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "turfmoor": {
+   "n": "Turf Moor",
+   "c": "Burnley",
+   "rc": "BUR",
+   "acc": 15,
+   "lat": 53.789,
+   "lon": -2.2302,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "ewood": {
+   "n": "Ewood Park",
+   "c": "Blackburn",
+   "rc": "BLA",
+   "acc": 20,
+   "lat": 53.7286,
+   "lon": -2.4893,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "deepdale": {
+   "n": "Deepdale",
+   "c": "Preston",
+   "rc": "PRE",
+   "acc": 25,
+   "lat": 53.7722,
+   "lon": -2.6881,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "bolton": {
+   "n": "Toughsheet Community Stadium",
+   "c": "Bolton",
+   "rc": "BOL",
+   "acc": 10,
+   "lat": 53.5806,
+   "lon": -2.5356,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "bet365": {
+   "n": "bet365 Stadium",
+   "c": "Stoke-on-Trent",
+   "rc": "STO",
+   "acc": 15,
+   "lat": 52.9884,
+   "lon": -2.1756,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "bramall": {
+   "n": "Bramall Lane",
+   "c": "Sheffield",
+   "rc": "SHE",
+   "acc": 15,
+   "lat": 53.3703,
+   "lon": -1.4709,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "caeras": {
+   "n": "STōK Cae Ras",
+   "c": "Wrexham",
+   "rc": "WRE",
+   "acc": 5,
+   "lat": 53.052,
+   "lon": -3.004,
+   "cc": "WAL",
+   "r": "manchester"
+  },
+  "molineux": {
+   "n": "Molineux",
+   "c": "Wolverhampton",
+   "rc": "WOL",
+   "acc": 10,
+   "lat": 52.5902,
+   "lon": -2.1304,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "hawthorns": {
+   "n": "The Hawthorns",
+   "c": "West Bromwich",
+   "rc": "BIR",
+   "acc": 20,
+   "lat": 52.5091,
+   "lon": -1.9639,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "standrews": {
+   "n": "St Andrew's",
+   "c": "Birmingham",
+   "rc": "BIR",
+   "acc": 20,
+   "lat": 52.4756,
+   "lon": -1.8681,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "villapark": {
+   "n": "Villa Park",
+   "c": "Birmingham",
+   "rc": "BIR",
+   "acc": 20,
+   "lat": 52.5092,
+   "lon": -1.8848,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "pridepark": {
+   "n": "Pride Park",
+   "c": "Derby",
+   "rc": "DER",
+   "acc": 15,
+   "lat": 52.9149,
+   "lon": -1.4473,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "cityground": {
+   "n": "City Ground",
+   "c": "Nottingham",
+   "rc": "NOT",
+   "acc": 20,
+   "lat": 52.94,
+   "lon": -1.1328,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "cbsarena": {
+   "n": "Coventry Building Society Arena",
+   "c": "Coventry",
+   "rc": "COV",
+   "acc": 20,
+   "lat": 52.4481,
+   "lon": -1.4956,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "mkm": {
+   "n": "MKM Stadium",
+   "c": "Hull",
+   "rc": "HUL",
+   "acc": 20,
+   "lat": 53.7461,
+   "lon": -0.3679,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "riverside": {
+   "n": "Riverside Stadium",
+   "c": "Middlesbrough",
+   "rc": "MID",
+   "acc": 15,
+   "lat": 54.5782,
+   "lon": -1.217,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "stjames": {
+   "n": "St James' Park",
+   "c": "Newcastle",
+   "rc": "NEW",
+   "acc": 10,
+   "lat": 54.9756,
+   "lon": -1.6216,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "stadiumoflight": {
+   "n": "Stadium of Light",
+   "c": "Sunderland",
+   "rc": "SUN",
+   "acc": 15,
+   "lat": 54.9146,
+   "lon": -1.3884,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "lner": {
+   "n": "LNER Stadium",
+   "c": "Lincoln",
+   "rc": "LIN",
+   "acc": 10,
+   "lat": 53.2183,
+   "lon": -0.5407,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "emirates": {
+   "n": "Emirates Stadium",
+   "c": "London",
+   "rc": "LON",
+   "acc": 25,
+   "lat": 51.5549,
+   "lon": -0.1084,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "spurs": {
+   "n": "Tottenham Hotspur Stadium",
+   "c": "London",
+   "rc": "LON",
+   "acc": 40,
+   "lat": 51.6043,
+   "lon": -0.0664,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "stamford": {
+   "n": "Stamford Bridge",
+   "c": "London",
+   "rc": "LON",
+   "acc": 40,
+   "lat": 51.4817,
+   "lon": -0.191,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "londonstadium": {
+   "n": "London Stadium",
+   "c": "London",
+   "rc": "LON",
+   "acc": 35,
+   "lat": 51.5387,
+   "lon": -0.0166,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "craven": {
+   "n": "Craven Cottage",
+   "c": "London",
+   "rc": "LON",
+   "acc": 50,
+   "lat": 51.4749,
+   "lon": -0.2217,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "gtech": {
+   "n": "Gtech Community Stadium",
+   "c": "London",
+   "rc": "LON",
+   "acc": 50,
+   "lat": 51.4908,
+   "lon": -0.2887,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "selhurst": {
+   "n": "Selhurst Park",
+   "c": "London",
+   "rc": "LON",
+   "acc": 55,
+   "lat": 51.3983,
+   "lon": -0.0855,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "loftus": {
+   "n": "Loftus Road",
+   "c": "London",
+   "rc": "LON",
+   "acc": 40,
+   "lat": 51.5093,
+   "lon": -0.2322,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "den": {
+   "n": "The Den",
+   "c": "London",
+   "rc": "LON",
+   "acc": 40,
+   "lat": 51.4859,
+   "lon": -0.0509,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "valley": {
+   "n": "The Valley",
+   "c": "London",
+   "rc": "LON",
+   "acc": 50,
+   "lat": 51.4865,
+   "lon": 0.0364,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "vicarage": {
+   "n": "Vicarage Road",
+   "c": "Watford",
+   "rc": "LON",
+   "acc": 50,
+   "lat": 51.6498,
+   "lon": -0.4015,
+   "cc": "ENG",
+   "r": "manchester"
+  },
+  "amex": {
+   "n": "Amex Stadium",
+   "c": "Brighton",
+   "rc": null,
+   "acc": 0,
+   "lat": 50.8618,
+   "lon": -0.0837,
+   "cc": "ENG",
+   "r": null
+  },
+  "vitality": {
+   "n": "Vitality Stadium",
+   "c": "Bournemouth",
+   "rc": null,
+   "acc": 0,
+   "lat": 50.7352,
+   "lon": -1.8384,
+   "cc": "ENG",
+   "r": null
+  },
+  "portman": {
+   "n": "Portman Road",
+   "c": "Ipswich",
+   "rc": null,
+   "acc": 0,
+   "lat": 52.0545,
+   "lon": 1.1447,
+   "cc": "ENG",
+   "r": null
+  },
+  "carrow": {
+   "n": "Carrow Road",
+   "c": "Norwich",
+   "rc": null,
+   "acc": 0,
+   "lat": 52.6222,
+   "lon": 1.3092,
+   "cc": "ENG",
+   "r": null
+  },
+  "stmarys": {
+   "n": "St Mary's Stadium",
+   "c": "Southampton",
+   "rc": null,
+   "acc": 0,
+   "lat": 50.9058,
+   "lon": -1.391,
+   "cc": "ENG",
+   "r": null
+  },
+  "fratton": {
+   "n": "Fratton Park",
+   "c": "Portsmouth",
+   "rc": null,
+   "acc": 0,
+   "lat": 50.7964,
+   "lon": -1.0639,
+   "cc": "ENG",
+   "r": null
+  },
+  "ashtongate": {
+   "n": "Ashton Gate",
+   "c": "Bristol",
+   "rc": null,
+   "acc": 0,
+   "lat": 51.44,
+   "lon": -2.6205,
+   "cc": "ENG",
+   "r": null
+  },
+  "cardiff": {
+   "n": "Cardiff City Stadium",
+   "c": "Cardiff",
+   "rc": null,
+   "acc": 0,
+   "lat": 51.4728,
+   "lon": -3.203,
+   "cc": "WAL",
+   "r": null
+  },
+  "swansea": {
+   "n": "Swansea.com Stadium",
+   "c": "Swansea",
+   "rc": null,
+   "acc": 0,
+   "lat": 51.6428,
+   "lon": -3.9351,
+   "cc": "WAL",
+   "r": null
+  },
+  "arena": {
+   "n": "Johan Cruijff ArenA",
+   "c": "Amsterdam",
+   "rc": "AMS",
+   "acc": 25,
+   "lat": 52.3143,
+   "lon": 4.9419,
+   "cc": "NED",
+   "r": "amsterdam"
+  },
+  "afas": {
+   "n": "AFAS Stadion",
+   "c": "Alkmaar",
+   "rc": "ALK",
+   "acc": 20,
+   "lat": 52.6128,
+   "lon": 4.7425,
+   "cc": "NED",
+   "r": "amsterdam"
+  },
+  "buko": {
+   "n": "BUKO Stadion",
+   "c": "Velsen",
+   "rc": "HAA",
+   "acc": 40,
+   "lat": 52.461,
+   "lon": 4.629,
+   "cc": "NED",
+   "r": "amsterdam"
+  },
+  "galgenwaard": {
+   "n": "Stadion Galgenwaard",
+   "c": "Utrecht",
+   "rc": "UTR",
+   "acc": 15,
+   "lat": 52.0786,
+   "lon": 5.1462,
+   "cc": "NED",
+   "r": "amsterdam"
+  },
+  "kuip": {
+   "n": "De Kuip",
+   "c": "Rotterdam",
+   "rc": "ROT",
+   "acc": 30,
+   "lat": 51.8939,
+   "lon": 4.5232,
+   "cc": "NED",
+   "r": "amsterdam"
+  },
+  "kasteel": {
+   "n": "Het Kasteel",
+   "c": "Rotterdam",
+   "rc": "ROT",
+   "acc": 20,
+   "lat": 51.9199,
+   "lon": 4.4326,
+   "cc": "NED",
+   "r": "amsterdam"
+  },
+  "woudestein": {
+   "n": "Van Donge & De Roo Stadion",
+   "c": "Rotterdam",
+   "rc": "ROT",
+   "acc": 25,
+   "lat": 51.9175,
+   "lon": 4.5216,
+   "cc": "NED",
+   "r": "amsterdam"
+  },
+  "bingoal": {
+   "n": "Bingoal Stadion",
+   "c": "The Hague",
+   "rc": "DHG",
+   "acc": 20,
+   "lat": 52.0621,
+   "lon": 4.3824,
+   "cc": "NED",
+   "r": "amsterdam"
+  },
+  "philips": {
+   "n": "Philips Stadion",
+   "c": "Eindhoven",
+   "rc": "EIN",
+   "acc": 15,
+   "lat": 51.4417,
+   "lon": 5.4675,
+   "cc": "NED",
+   "r": "amsterdam"
+  },
+  "goffert": {
+   "n": "Goffertstadion",
+   "c": "Nijmegen",
+   "rc": "NIJ",
+   "acc": 20,
+   "lat": 51.8215,
+   "lon": 5.8533,
+   "cc": "NED",
+   "r": "amsterdam"
+  },
+  "willem2": {
+   "n": "Koning Willem II Stadion",
+   "c": "Tilburg",
+   "rc": "TIL",
+   "acc": 20,
+   "lat": 51.5446,
+   "lon": 5.0682,
+   "cc": "NED",
+   "r": "amsterdam"
+  },
+  "adelaarshorst": {
+   "n": "De Adelaarshorst",
+   "c": "Deventer",
+   "rc": "DEV",
+   "acc": 15,
+   "lat": 52.2564,
+   "lon": 6.172,
+   "cc": "NED",
+   "r": "amsterdam"
+  },
+  "mac3park": {
+   "n": "MAC³PARK Stadion",
+   "c": "Zwolle",
+   "rc": "ZWO",
+   "acc": 20,
+   "lat": 52.513,
+   "lon": 6.071,
+   "cc": "NED",
+   "r": "amsterdam"
+  },
+  "grolsch": {
+   "n": "De Grolsch Veste",
+   "c": "Enschede",
+   "rc": "ENS",
+   "acc": 15,
+   "lat": 52.2366,
+   "lon": 6.8375,
+   "cc": "NED",
+   "r": "amsterdam"
+  },
+  "abelenstra": {
+   "n": "Abe Lenstra Stadion",
+   "c": "Heerenveen",
+   "rc": "HEE",
+   "acc": 15,
+   "lat": 52.9586,
+   "lon": 5.9375,
+   "cc": "NED",
+   "r": "amsterdam"
+  },
+  "kooi": {
+   "n": "Kooi Stadion",
+   "c": "Leeuwarden",
+   "rc": "LEE",
+   "acc": 15,
+   "lat": 53.1868,
+   "lon": 5.8022,
+   "cc": "NED",
+   "r": "amsterdam"
+  },
+  "euroborg": {
+   "n": "Euroborg",
+   "c": "Groningen",
+   "rc": "GRO",
+   "acc": 10,
+   "lat": 53.2066,
+   "lon": 6.5931,
+   "cc": "NED",
+   "r": "amsterdam"
+  },
+  "fortuna": {
+   "n": "Fortuna Sittard Stadion",
+   "c": "Sittard",
+   "rc": "SIT",
+   "acc": 20,
+   "lat": 50.991,
+   "lon": 5.8622,
+   "cc": "NED",
+   "r": "amsterdam"
+  }
+ },
+ "clubs": {
+  "AC Milan": {
+   "short": "AC Milan",
+   "ground": "sansiro"
+  },
+  "FC Internazionale Milano": {
+   "short": "Inter",
+   "ground": "sansiro"
+  },
+  "AC Monza": {
+   "short": "Monza",
+   "ground": "monza"
+  },
+  "Como 1907": {
+   "short": "Como",
+   "ground": "como"
+  },
+  "Atalanta BC": {
+   "short": "Atalanta",
+   "ground": "bergamo"
+  },
+  "Juventus FC": {
+   "short": "Juventus",
+   "ground": "allianz"
+  },
+  "Torino FC": {
+   "short": "Torino",
+   "ground": "grandetorino"
+  },
+  "Genoa CFC": {
+   "short": "Genoa",
+   "ground": "ferraris"
+  },
+  "Parma Calcio 1913": {
+   "short": "Parma",
+   "ground": "tardini"
+  },
+  "US Sassuolo Calcio": {
+   "short": "Sassuolo",
+   "ground": "mapei"
+  },
+  "Bologna FC 1909": {
+   "short": "Bologna",
+   "ground": "dallara"
+  },
+  "Venezia FC": {
+   "short": "Venezia",
+   "ground": "penzo"
+  },
+  "ACF Fiorentina": {
+   "short": "Fiorentina",
+   "ground": "franchi"
+  },
+  "Udinese Calcio": {
+   "short": "Udinese",
+   "ground": "udine"
+  },
+  "AS Roma": {
+   "short": "Roma",
+   "ground": "olimpico"
+  },
+  "SS Lazio": {
+   "short": "Lazio",
+   "ground": "olimpico"
+  },
+  "SSC Napoli": {
+   "short": "Napoli",
+   "ground": "maradona"
+  },
+  "Cagliari Calcio": {
+   "short": "Cagliari",
+   "ground": "cagliari"
+  },
+  "US Lecce": {
+   "short": "Lecce",
+   "ground": "lecce"
+  },
+  "Frosinone Calcio": {
+   "short": "Frosinone",
+   "ground": "frosinone"
+  },
+  "Manchester United FC": {
+   "short": "Man Utd",
+   "ground": "oldtrafford"
+  },
+  "Manchester City FC": {
+   "short": "Man City",
+   "ground": "etihad"
+  },
+  "Liverpool FC": {
+   "short": "Liverpool",
+   "ground": "anfield"
+  },
+  "Everton FC": {
+   "short": "Everton",
+   "ground": "hilldickinson"
+  },
+  "Leeds United FC": {
+   "short": "Leeds",
+   "ground": "ellandroad"
+  },
+  "Burnley FC": {
+   "short": "Burnley",
+   "ground": "turfmoor"
+  },
+  "Blackburn Rovers FC": {
+   "short": "Blackburn",
+   "ground": "ewood"
+  },
+  "Preston North End FC": {
+   "short": "Preston",
+   "ground": "deepdale"
+  },
+  "Bolton Wanderers FC": {
+   "short": "Bolton",
+   "ground": "bolton"
+  },
+  "Stoke City FC": {
+   "short": "Stoke",
+   "ground": "bet365"
+  },
+  "Sheffield United FC": {
+   "short": "Sheffield Utd",
+   "ground": "bramall"
+  },
+  "Wrexham AFC": {
+   "short": "Wrexham",
+   "ground": "caeras"
+  },
+  "Wolverhampton Wanderers FC": {
+   "short": "Wolves",
+   "ground": "molineux"
+  },
+  "West Bromwich Albion FC": {
+   "short": "West Brom",
+   "ground": "hawthorns"
+  },
+  "Birmingham City FC": {
+   "short": "Birmingham",
+   "ground": "standrews"
+  },
+  "Aston Villa FC": {
+   "short": "Aston Villa",
+   "ground": "villapark"
+  },
+  "Derby County FC": {
+   "short": "Derby",
+   "ground": "pridepark"
+  },
+  "Nottingham Forest FC": {
+   "short": "Nottingham Forest",
+   "ground": "cityground"
+  },
+  "Coventry City FC": {
+   "short": "Coventry",
+   "ground": "cbsarena"
+  },
+  "Hull City AFC": {
+   "short": "Hull",
+   "ground": "mkm"
+  },
+  "Middlesbrough FC": {
+   "short": "Middlesbrough",
+   "ground": "riverside"
+  },
+  "Newcastle United FC": {
+   "short": "Newcastle",
+   "ground": "stjames"
+  },
+  "Sunderland AFC": {
+   "short": "Sunderland",
+   "ground": "stadiumoflight"
+  },
+  "Lincoln City FC": {
+   "short": "Lincoln",
+   "ground": "lner"
+  },
+  "Arsenal FC": {
+   "short": "Arsenal",
+   "ground": "emirates"
+  },
+  "Tottenham Hotspur FC": {
+   "short": "Spurs",
+   "ground": "spurs"
+  },
+  "Chelsea FC": {
+   "short": "Chelsea",
+   "ground": "stamford"
+  },
+  "West Ham United FC": {
+   "short": "West Ham",
+   "ground": "londonstadium"
+  },
+  "Fulham FC": {
+   "short": "Fulham",
+   "ground": "craven"
+  },
+  "Brentford FC": {
+   "short": "Brentford",
+   "ground": "gtech"
+  },
+  "Crystal Palace FC": {
+   "short": "Crystal Palace",
+   "ground": "selhurst"
+  },
+  "Queens Park Rangers FC": {
+   "short": "QPR",
+   "ground": "loftus"
+  },
+  "Millwall FC": {
+   "short": "Millwall",
+   "ground": "den"
+  },
+  "Charlton Athletic FC": {
+   "short": "Charlton",
+   "ground": "valley"
+  },
+  "Watford FC": {
+   "short": "Watford",
+   "ground": "vicarage"
+  },
+  "Brighton & Hove Albion FC": {
+   "short": "Brighton",
+   "ground": "amex"
+  },
+  "AFC Bournemouth": {
+   "short": "Bournemouth",
+   "ground": "vitality"
+  },
+  "Ipswich Town FC": {
+   "short": "Ipswich",
+   "ground": "portman"
+  },
+  "Norwich City FC": {
+   "short": "Norwich",
+   "ground": "carrow"
+  },
+  "Southampton FC": {
+   "short": "Southampton",
+   "ground": "stmarys"
+  },
+  "Portsmouth FC": {
+   "short": "Portsmouth",
+   "ground": "fratton"
+  },
+  "Bristol City FC": {
+   "short": "Bristol City",
+   "ground": "ashtongate"
+  },
+  "Cardiff City FC": {
+   "short": "Cardiff",
+   "ground": "cardiff"
+  },
+  "Swansea City AFC": {
+   "short": "Swansea",
+   "ground": "swansea"
+  },
+  "AFC Ajax": {
+   "short": "Ajax",
+   "ground": "arena"
+  },
+  "AZ": {
+   "short": "AZ",
+   "ground": "afas"
+  },
+  "Telstar 1963": {
+   "short": "Telstar",
+   "ground": "buko"
+  },
+  "FC Utrecht": {
+   "short": "Utrecht",
+   "ground": "galgenwaard"
+  },
+  "Feyenoord Rotterdam": {
+   "short": "Feyenoord",
+   "ground": "kuip"
+  },
+  "Sparta Rotterdam": {
+   "short": "Sparta",
+   "ground": "kasteel"
+  },
+  "SBV Excelsior": {
+   "short": "Excelsior",
+   "ground": "woudestein"
+  },
+  "ADO Den Haag": {
+   "short": "ADO Den Haag",
+   "ground": "bingoal"
+  },
+  "PSV": {
+   "short": "PSV",
+   "ground": "philips"
+  },
+  "NEC": {
+   "short": "NEC",
+   "ground": "goffert"
+  },
+  "Willem II Tilburg": {
+   "short": "Willem II",
+   "ground": "willem2"
+  },
+  "Go Ahead Eagles": {
+   "short": "Go Ahead Eagles",
+   "ground": "adelaarshorst"
+  },
+  "PEC Zwolle": {
+   "short": "PEC Zwolle",
+   "ground": "mac3park"
+  },
+  "FC Twente '65": {
+   "short": "Twente",
+   "ground": "grolsch"
+  },
+  "SC Heerenveen": {
+   "short": "Heerenveen",
+   "ground": "abelenstra"
+  },
+  "SC Cambuur-Leeuwarden": {
+   "short": "Cambuur",
+   "ground": "kooi"
+  },
+  "FC Groningen": {
+   "short": "Groningen",
+   "ground": "euroborg"
+  },
+  "Fortuna Sittard": {
+   "short": "Fortuna Sittard",
+   "ground": "fortuna"
+  }
+ },
+ "highDemand": [
+  "Ajax",
+  "Arsenal",
+  "Chelsea",
+  "Feyenoord",
+  "Liverpool",
+  "Man Utd",
+  "Manchester United",
+  "Newcastle",
+  "PSV",
+  "PSV Eindhoven",
+  "Spurs",
+  "Tottenham",
+  "Tottenham Hotspur"
+ ],
+ "leagues": [
+  {
+   "name": "Serie A",
+   "country": "Italy",
+   "cc": "it",
+   "of": "it.1",
+   "af": 135
+  },
+  {
+   "name": "Serie B",
+   "country": "Italy",
+   "cc": "it",
+   "af": 136
+  },
+  {
+   "name": "Coppa Italia",
+   "country": "Italy",
+   "cc": "it",
+   "af": 137
+  },
+  {
+   "name": "Premier League",
+   "country": "England",
+   "cc": "gb",
+   "of": "en.1",
+   "af": 39
+  },
+  {
+   "name": "Championship",
+   "country": "England",
+   "cc": "gb",
+   "of": "en.2",
+   "af": 40
+  },
+  {
+   "name": "League One",
+   "country": "England",
+   "cc": "gb",
+   "af": 41
+  },
+  {
+   "name": "League Two",
+   "country": "England",
+   "cc": "gb",
+   "af": 42
+  },
+  {
+   "name": "National League",
+   "country": "England",
+   "cc": "gb",
+   "af": 43
+  },
+  {
+   "name": "FA Cup",
+   "country": "England",
+   "cc": "gb",
+   "af": 45
+  },
+  {
+   "name": "EFL Cup",
+   "country": "England",
+   "cc": "gb",
+   "af": 48
+  },
+  {
+   "name": "Eredivisie",
+   "country": "Netherlands",
+   "cc": "nl",
+   "of": "nl.1",
+   "af": 88
+  },
+  {
+   "name": "Eerste Divisie",
+   "country": "Netherlands",
+   "cc": "nl",
+   "af": 89
+  },
+  {
+   "name": "KNVB Cup",
+   "country": "Netherlands",
+   "cc": "nl",
+   "af": 90
+  },
+  {
+   "name": "Champions League",
+   "country": "Europe",
+   "cc": "",
+   "af": 2
+  },
+  {
+   "name": "Europa League",
+   "country": "Europe",
+   "cc": "",
+   "af": 3
+  },
+  {
+   "name": "Conference League",
+   "country": "Europe",
+   "cc": "",
+   "af": 848
+  }
+ ]
+}

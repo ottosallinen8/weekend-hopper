@@ -1,0 +1,245 @@
+{
+ "about": "Manual kickoff fixes applied to openfootball data when the feed lags. Ignored once API-Football is used.",
+ "fixes": [
+  {
+   "league": "Premier League",
+   "home": "Everton FC",
+   "away": "Coventry City FC",
+   "date": "2026-11-06",
+   "time": "20:00",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Leeds United FC",
+   "away": "Tottenham Hotspur FC",
+   "date": "2026-11-07",
+   "time": "12:30",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Arsenal FC",
+   "away": "Hull City AFC",
+   "date": "2026-11-07",
+   "time": "15:00",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Fulham FC",
+   "away": "Newcastle United FC",
+   "date": "2026-11-07",
+   "time": "15:00",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Nottingham Forest FC",
+   "away": "Manchester City FC",
+   "date": "2026-11-07",
+   "time": "17:30",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Brighton & Hove Albion FC",
+   "away": "Brentford FC",
+   "date": "2026-11-08",
+   "time": "14:00",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Crystal Palace FC",
+   "away": "Liverpool FC",
+   "date": "2026-11-08",
+   "time": "14:00",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Ipswich Town FC",
+   "away": "AFC Bournemouth",
+   "date": "2026-11-08",
+   "time": "14:00",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Sunderland AFC",
+   "away": "Chelsea FC",
+   "date": "2026-11-08",
+   "time": "14:00",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Manchester United FC",
+   "away": "Aston Villa FC",
+   "date": "2026-11-08",
+   "time": "16:30",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Manchester City FC",
+   "away": "Fulham FC",
+   "date": "2026-11-21",
+   "time": "12:30",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "AFC Bournemouth",
+   "away": "Nottingham Forest FC",
+   "date": "2026-11-21",
+   "time": "15:00",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Aston Villa FC",
+   "away": "Sunderland AFC",
+   "date": "2026-11-21",
+   "time": "15:00",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Chelsea FC",
+   "away": "Leeds United FC",
+   "date": "2026-11-21",
+   "time": "15:00",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Coventry City FC",
+   "away": "Crystal Palace FC",
+   "date": "2026-11-21",
+   "time": "15:00",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Tottenham Hotspur FC",
+   "away": "Ipswich Town FC",
+   "date": "2026-11-21",
+   "time": "15:00",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Newcastle United FC",
+   "away": "Arsenal FC",
+   "date": "2026-11-21",
+   "time": "17:30",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Hull City AFC",
+   "away": "Brighton & Hove Albion FC",
+   "date": "2026-11-22",
+   "time": "14:00",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Liverpool FC",
+   "away": "Manchester United FC",
+   "date": "2026-11-22",
+   "time": "16:30",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Brentford FC",
+   "away": "Everton FC",
+   "date": "2026-11-23",
+   "time": "20:00",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Nottingham Forest FC",
+   "away": "Chelsea FC",
+   "date": "2026-11-27",
+   "time": "20:00",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Leeds United FC",
+   "away": "Coventry City FC",
+   "date": "2026-11-28",
+   "time": "15:00",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Manchester United FC",
+   "away": "Brentford FC",
+   "date": "2026-11-28",
+   "time": "15:00",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Ipswich Town FC",
+   "away": "Aston Villa FC",
+   "date": "2026-11-28",
+   "time": "17:30",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Everton FC",
+   "away": "Liverpool FC",
+   "date": "2026-11-29",
+   "time": "12:00",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Brighton & Hove Albion FC",
+   "away": "Newcastle United FC",
+   "date": "2026-11-29",
+   "time": "14:05",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Crystal Palace FC",
+   "away": "Hull City AFC",
+   "date": "2026-11-29",
+   "time": "14:05",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Fulham FC",
+   "away": "AFC Bournemouth",
+   "date": "2026-11-29",
+   "time": "14:05",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Sunderland AFC",
+   "away": "Tottenham Hotspur FC",
+   "date": "2026-11-29",
+   "time": "14:05",
+   "note": "Nov 2026 TV picks"
+  },
+  {
+   "league": "Premier League",
+   "home": "Arsenal FC",
+   "away": "Manchester City FC",
+   "date": "2026-11-29",
+   "time": "16:30",
+   "note": "Nov 2026 TV picks"
+  }
+ ]
+}

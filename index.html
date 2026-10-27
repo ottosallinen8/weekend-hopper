@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Weekend Hopper</title>
+<meta name="description" content="Plan a football weekend from Milan, Manchester or Amsterdam: real fixtures, train times and a globe of the grounds you have been to.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: one narrow column like a matchday programme. Settings, ranked trip plans as ticket-stub cards, then the globe passport. */
+:root {
+  --bg: #EBEFE8;
+  --surface: #F8FAF5;
+  --ink: #15211A;
+  --ink2: #4B5B50;
+  --line: #CBD5C8;
+  --pitch: #0E6B3C;
+  --pitch-ink: #FFFFFF;
+  --lamp: #F0C230;
+  --lamp-ink: #2A2200;
+  --good: #1B7A43;
+  --warn: #9A5B00;
+  --crit: #B03A2E;
+  --sea: #DCE6E4;
+  --land: #C5D2BF;
+  --land-hit: #6FAE84;
+  --border: #F8FAF5;
+  --grat: rgba(21, 33, 26, 0.08);
+  --font-display: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  --font-body: 'Barlow', system-ui, sans-serif;
+  --font-data: 'IBM Plex Mono', ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0D1510; --surface: #152019; --ink: #E6EEE5; --ink2: #A3B3A6; --line: #2B3C30;
+    --pitch: #3DBB74; --pitch-ink: #07140C; --lamp: #E8C547; --lamp-ink: #241D00;
+    --good: #55C98A; --warn: #E0A64A; --crit: #EE7B6D;
+    --sea: #0F1D22; --land: #2A3B2F; --land-hit: #2F7D4F; --border: #0D1510; --grat: rgba(230, 238, 229, 0.07);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0D1510; --surface: #152019; --ink: #E6EEE5; --ink2: #A3B3A6; --line: #2B3C30;
+  --pitch: #3DBB74; --pitch-ink: #07140C; --lamp: #E8C547; --lamp-ink: #241D00;
+  --good: #55C98A; --warn: #E0A64A; --crit: #EE7B6D;
+  --sea: #0F1D22; --land: #2A3B2F; --land-hit: #2F7D4F; --border: #0D1510; --grat: rgba(230, 238, 229, 0.07);
+  color-scheme: dark;
+}
+body {
+  background: var(--bg); color: var(--ink);
+  font: 400 16px/1.5 var(--font-body);
+  padding-block: 20px 56px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+[hidden] { display: none !important; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; }
+.wrap { max-width: 760px; margin: 0 auto; display: grid; gap: 32px; }
+.eyebrow { font: 600 13px var(--font-body); letter-spacing: .12em; text-transform: uppercase; color: var(--ink2); }
+h1 { font: 700 clamp(38px, 10vw, 58px)/.95 var(--font-display); text-transform: uppercase; letter-spacing: .01em; margin: 6px 0 10px; text-wrap: balance; }
+.lede { max-width: 58ch; color: var(--ink2); margin: 0; }
+
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 18px; }
+.field { display: grid; gap: 8px; min-width: 0; }
+.label { font: 600 13px var(--font-body); letter-spacing: .1em; text-transform: uppercase; color: var(--ink2); display: flex; justify-content: space-between; gap: 8px; }
+.label output { font: 500 13px var(--font-data); letter-spacing: 0; text-transform: none; color: var(--ink); }
+.seg { display: flex; flex-wrap: wrap; gap: 6px; }
+.seg button, .btn {
+  font: 600 15px var(--font-body); color: var(--ink); background: var(--bg);
+  border: 1.5px solid var(--line); border-radius: 6px; padding: 9px 14px; cursor: pointer;
+}
+.seg button[aria-pressed="true"], .btn[aria-pressed="true"] { background: var(--pitch); border-color: var(--pitch); color: var(--pitch-ink); }
+button:focus-visible, input:focus-visible, a:focus-visible { outline: 3px solid var(--lamp); outline-offset: 2px; }
+input[type=range] { width: 100%; accent-color: var(--pitch); }
+.dates { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.dates label { display: grid; gap: 4px; font: 500 13px var(--font-body); color: var(--ink2); }
+input[type=date], input[type=search] {
+  font: 500 16px var(--font-body); color: var(--ink); background: var(--bg);
+  border: 1.5px solid var(--line); border-radius: 6px; padding: 8px 10px; width: 100%; min-width: 0; box-sizing: border-box;
+}
+.hint { font-size: 14px; color: var(--ink2); margin: 0; }
+.hint.alert { color: var(--warn); }
+.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+@media (max-width: 560px) { .row2 { grid-template-columns: 1fr; } }
+
+h2 { font: 700 30px/1 var(--font-display); text-transform: uppercase; letter-spacing: .02em; margin: 0; }
+.section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+.muted { color: var(--ink2); font-size: 14px; margin: 0; }
+.plans { display: grid; gap: 16px; }
+
+.plan { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 16px; min-width: 0; }
+.plan-head { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.plan-name { font: 700 22px/1 var(--font-display); text-transform: uppercase; letter-spacing: .03em; margin-right: 4px; }
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 480px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.stat b { display: block; font: 500 20px var(--font-data); font-variant-numeric: tabular-nums; }
+.stat span { font: 600 12px var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--ink2); }
+.day { display: grid; gap: 10px; }
+.day h3 { font: 600 14px var(--font-body); letter-spacing: .12em; text-transform: uppercase; color: var(--ink2); margin: 0; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+.match { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 12px; }
+.ko { font: 500 20px var(--font-data); font-variant-numeric: tabular-nums; }
+.ko small { display: block; font: 600 11px var(--font-body); letter-spacing: .06em; text-transform: uppercase; color: var(--warn); }
+.mbody { border-left: 2px dashed var(--line); padding-left: 12px; display: grid; gap: 6px; min-width: 0; }
+.teams { font: 700 21px/1.1 var(--font-display); text-transform: uppercase; letter-spacing: .02em; overflow-wrap: anywhere; }
+.where { color: var(--ink2); font-size: 14px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.chip { font: 600 12px var(--font-body); letter-spacing: .05em; text-transform: uppercase; padding: 2px 7px; border-radius: 4px; border: 1px solid currentColor; color: var(--ink2); white-space: nowrap; }
+.chip.good { color: var(--good); } .chip.warn { color: var(--warn); } .chip.crit { color: var(--crit); }
+.chip.new { background: var(--lamp); border-color: var(--lamp); color: var(--lamp-ink); }
+.chip.tag { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+.actions { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+.leg { font: 500 13px/1.45 var(--font-data); color: var(--ink2); padding-left: 76px; }
+.leg.alert { color: var(--warn); }
+.leg a, .actions a, .foot a { color: var(--pitch); font-family: var(--font-body); font-weight: 600; white-space: nowrap; }
+.btn.small { font-size: 14px; padding: 6px 10px; }
+@media (max-width: 480px) { .leg { padding-left: 0; } .match { grid-template-columns: 54px minmax(0, 1fr); } }
+
+.passport { display: grid; gap: 16px; }
+.globe-box { position: relative; width: 100%; max-width: 560px; margin: 0 auto; aspect-ratio: 1 / 1; }
+.globe-box canvas { width: 100%; height: 100%; display: block; touch-action: pan-y; cursor: grab; border-radius: 50%; }
+.globe-box canvas:active { cursor: grabbing; }
+.globe-ctrl { position: absolute; right: 0; bottom: 0; display: flex; gap: 6px; }
+.globe-ctrl button { font: 600 16px var(--font-body); min-width: 40px; height: 40px; border-radius: 6px; border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; padding: 0 10px; }
+.globe-fallback { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; color: var(--ink2); padding: 24px; }
+.legend { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; font-size: 14px; color: var(--ink2); }
+.legend i { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+.legend .been { background: var(--lamp); border: 2px solid var(--ink); }
+.legend .plan { background: transparent; border: 2px solid var(--pitch); padding: 0; }
+.legend .ctry { background: var(--land-hit); border-radius: 2px; }
+.pininfo { border: 1px solid var(--line); border-radius: 8px; padding: 12px; background: var(--surface); }
+.pininfo b { font: 700 20px var(--font-display); text-transform: uppercase; letter-spacing: .02em; }
+.counters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+@media (max-width: 480px) { .counters { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.counter { border: 1px solid var(--line); border-radius: 8px; padding: 12px; background: var(--surface); }
+.counter b { display: block; font: 700 40px/1 var(--font-display); font-variant-numeric: tabular-nums; }
+.counter span { font: 600 12px var(--font-body); letter-spacing: .1em; text-transform: uppercase; color: var(--ink2); }
+.log { list-style: none; margin: 0; padding: 0; display: grid; }
+.log li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; align-items: center; padding: 10px 0; border-top: 1px solid var(--line); }
+.log .t { font-weight: 600; overflow-wrap: anywhere; }
+.log .d { font: 500 13px var(--font-data); color: var(--ink2); }
+.link-btn { background: none; border: none; color: var(--ink2); font: 600 14px var(--font-body); cursor: pointer; text-decoration: underline; padding: 4px; }
+.empty { border: 1px dashed var(--line); border-radius: 8px; padding: 18px; color: var(--ink2); }
+.add { display: grid; gap: 8px; }
+.results { list-style: none; margin: 0; padding: 0; display: grid; }
+.results li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; align-items: center; padding: 8px 0; border-top: 1px solid var(--line); }
+.foot { font-size: 13px; color: var(--ink2); display: grid; gap: 6px; }
+.foot p { margin: 0; max-width: 70ch; }
+@media (prefers-reduced-motion: no-preference) { .plan { transition: border-color .15s; } .plan:hover { border-color: var(--pitch); } }
+
+.loading { color: var(--ink2); }
+.src { font: 500 12px var(--font-data); color: var(--ink2); }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="eyebrow">Groundhopping planner</div>
+    <h1>Weekend Hopper</h1>
+    <p class="lede">Pick a city and your travel dates. You get the best one to three real matches nearby, in an order that works, with train times. You book flights and a hotel in the city yourself. Pin every game you go to on your globe.</p>
+  </header>
+
+  <section class="panel" aria-label="Trip settings">
+    <div class="field">
+      <div class="label">Base city</div>
+      <div class="seg" id="cities"></div>
+    </div>
+    <div class="field">
+      <div class="label">Travel dates <output id="span"></output></div>
+      <div class="dates">
+        <label for="from">From<input type="date" id="from"></label>
+        <label for="to">To<input type="date" id="to"></label>
+      </div>
+      <div class="seg" id="quick">
+        <button type="button" data-q="0">This weekend</button>
+        <button type="button" data-q="1">Next weekend</button>
+      </div>
+      <p class="hint" id="dateHint" hidden></p>
+    </div>
+    <div class="row2">
+      <div class="field">
+        <label class="label" for="maxT">Max trip to a ground <output id="maxTout"></output></label>
+        <input type="range" id="maxT" min="30" max="210" step="15">
+      </div>
+      <div class="field">
+        <div class="label">Matches</div>
+        <div class="seg" id="counts"></div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-live="polite">
+    <div class="section-head">
+      <h2 id="plansTitle">Plans</h2>
+      <p class="muted" id="candLine"></p>
+    </div>
+    <div class="plans" id="plans"></div>
+  </section>
+
+  <section class="passport" aria-label="Your football globe">
+    <div class="section-head" style="margin:0">
+      <h2>Your globe</h2>
+      <button class="btn small" id="clearExamples" type="button" hidden>Remove example pins</button>
+    </div>
+    <div class="globe-box" id="globeBox">
+      <canvas id="globe" aria-label="Globe with your pinned football grounds. Drag to turn it." role="img"></canvas>
+      <div class="globe-fallback" id="globeFallback" hidden>The globe could not load. Your pins are still listed below.</div>
+      <div class="globe-ctrl">
+        <button type="button" id="zoomOut" aria-label="Zoom out">&minus;</button>
+        <button type="button" id="zoomIn" aria-label="Zoom in">+</button>
+        <button type="button" id="fitPins">Fit my pins</button>
+      </div>
+    </div>
+    <div class="legend"><span><i class="been"></i>Been</span><span><i class="plan"></i>Planned</span><span><i class="ctry"></i>Country collected</span></div>
+    <div class="pininfo" id="pinInfo" hidden></div>
+    <div class="counters" id="counters"></div>
+    <p class="muted" id="countryLine"></p>
+    <div class="add">
+      <label class="label" for="search">Add a match you went to this season</label>
+      <input type="search" id="search" placeholder="Type a team, e.g. Atalanta" autocomplete="off">
+      <ul class="results" id="results"></ul>
+    </div>
+    <ul class="log" id="log"></ul>
+  </section>
+
+  <footer class="foot">
+    <p id="dataNote" class="loading">Loading fixtures…</p>
+    <p><b>Travel times:</b> journeys marked "by public transport" come from the Transitous journey planner and are refreshed every few weeks. Others are estimates from typical train times. Tap <b>Live route</b> on any leg for exact connections on your day. Plans assume you sleep in your base city.</p>
+    <p>Your pins are saved in this browser only.</p>
+  </footer>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
